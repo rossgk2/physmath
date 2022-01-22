@@ -43,6 +43,7 @@ Aside from distancing itself from the "conjecture and prove" approach, there are
 - Not explaining why "canceling differentials" works when performing separation of variables.
 - Not explaining that the implication operator only takes on its English-langauge meaning when you use it inside a "for all" quantifier.
 - Presenting the correspondence between linear transformations and matrices to be a coeincidence.
+- Emphasizing thinking of matrices as grids of numbers rather than as lists of vectors.
 - Favoring the "multilinear function" definition of tensor over the "multilinear element" definition of tensor.
 - Not explaining how each and every one of the topological space axioms generalizes the topological properties of the real numbers.
 - Not mentioning the closure operator characterization of topologies.
