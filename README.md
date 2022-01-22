@@ -6,6 +6,7 @@ My ultimate ambition for this project is to develop a series of textbooks that
 
 the reader from knowing zero precalculus to knowing some fairly advanced differential geometry.
 
+- How to learn math (two pages)
 - Precalculus
 - Calculus
 -- Single variable calculus
@@ -18,9 +19,17 @@ the reader from knowing zero precalculus to knowing some fairly advanced differe
 -- Basic topology
 -- Calculus on manifolds with tensors
 
-In general, I feel that traditional math uses the "conjecture and prove" formula way too much. With "conjecture and prove", the conjectures are always plausable, but always seem to pop out of thin air to some degree.
+# Differences from traditional approaches
 
-A much better philosophy that my textbooks abide by is "tell a story".
+In general, I feel that traditional approaches to presenting math use the "conjecture and prove" formula way too much. In "conjecture and prove", the conjectures are always plausable, but also always seem to be somewhat unmotivated, and just popping out of thin air to some degree. It's true that some ideas are radical enough perspective shifts that they can only be percieved as coming out of the blue, but I feel that most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
+
+A much better philosophy that my (still in progress) textbooks abide by is to "tell a story". My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered. The aim is that these avenues of discovery are natural enough so that, if one were hypothetically restricted from access to any outside resources, like textbooks, notes, or the Internet, they would be able to retrace the concept's story and reobtain all the details.
+
+I admit, it is true that no one person would be likely to make all of these natural discoveries *for the first time*. But, after the first time of comprehension, 
+
+## Particular sins of traditional math
+
+Aside from d
 
 There are many, many instances in which I feel traditional approaches mar the beauty of math. 
 
