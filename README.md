@@ -1,18 +1,18 @@
 # Syllabus
 My ultimate ambition for this "physmath" project is to develop a series of textbooks that *satisfyingly* explain quite a lot of physically-inspired math, starting from precalculus. Here's the rough syllabus:
 
-- Thoughts on how to learn math (two pages)
+- Thoughts on how to learn math (2 pages)
 - Precalculus
 - Calculus
--- Single variable calculus
--- Multivariable calculus
---- Linear algebra teaser: dot product, cross product, and equation of a plane 
+- Single variable calculus
+- Multivariable calculus
+- Linear algebra teaser: dot product, cross product, and equation of a plane 
 - Logic and proof-writing
 - Linear algebra
 - Differential geometry
--- Tensors
--- Basic topology
--- Calculus on manifolds with tensors
+  - Tensors
+  - Basic topology
+  - Calculus on manifolds with tensors
 
 I love every single one of these topics just as much as the culmination that is differential geometry, so I won't be offended if you decide to stop halfway through the calculus textbook, or something like that. (It's not like I'll know if you do so!). And let's be real- if even five or so people read some the precalculus texbook of this collection and come away with new insights, I will be happy. Seriously- precalculus is one of math's subjects that is treated the worst, probably because it's most often taught by high school teachers who don't fully understand it themselves!
 
