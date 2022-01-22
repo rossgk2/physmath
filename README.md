@@ -5,8 +5,8 @@ My ultimate ambition for this "physmath" project is to develop a series of textb
 - Precalculus
 - Calculus
 - Single variable calculus
+- Linear algebra teaser: dot product, cross product, and equation of a plane
 - Multivariable calculus
-- Linear algebra teaser: dot product, cross product, and equation of a plane 
 - Logic and proof-writing
 - Linear algebra
 - Differential geometry
