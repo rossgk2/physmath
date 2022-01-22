@@ -26,13 +26,20 @@ I admit, it is true that no one person would be likely to make all of these natu
 
 ## Particular sins of traditional math
 
-Aside from distancing itself from the "conjecture and prove" approach, there are many specific instances in which traditional approaches to math fail that my work rectifies. Here's a lisf of sins typical math commits off the top of my head:
+Aside from distancing itself from the "conjecture and prove" approach, there are many specific instances in which traditional approaches to math fail that my work rectifies. Here's a list of sins typical math commits that my works rectify:
 
-- Defining e and the natural logarithm by "jumping to the conclusion" and skipping all motivation. (Typically, ln will defined to be a definite integral of 1/x, and e will either be defined to be a limit, or as the result of a convergent series, or as ln^{-1}(1)).
-- Not giving memorable intuition for ln(xy) = ln(x) + ln(y) and ln(x^y) = y log(x), and, at best, will rely on the proof that begins by taking ln of both sides of e^{x + y} = e^x + e^y.
+- In the precalculus setting, conflating functions (e.g. f) with functions evaluated on inputs (e.g. f(x)).
+- Not explaning why definitions involving exponents, such as b^x := 1/b^{-x} are natural.
+- Stating the chain rule by using the vague notion of differentiation with respect to "u = g(x)", rather than defining df/dg := f' compose g, and stating the chain rule as d(f compose g)/dx = df/dg dg/dx.
+- Defining e and the natural logarithm by "jumping to the conclusion" and skipping all relevant motivation. (Typically, ln will defined to be a definite integral of 1/x, and e will either be defined to be a limit, or as the result of a convergent series, or as ln^{-1}(1)).
+- Not giving memorable intuition for the facts ln(x y) = ln(x) + ln(y) and ln(x^y) = y log(x). At best, the traditional approach relies on the proof that begins by taking ln of both sides of e^{x + y} = e^x + e^y.
 - Not explaining why the following two definitions of the dot product are equivalent: (1) v . w := |v||w|cos(theta) and (2) v . w := v_1 w_1 + ... + v_n w_n. When traditional math *does* explain, it uses the unintuitive law of cosines to do so.
 - Insisting that you have to make weird shapes with your hand to apply the right hand rule, rather than explaining the concept of orientation, and how orientation (and therefore the direction of the cross product) flips when the counterclockwise angle from one vector to another exceeds pi.
 - Not making it clear that the right hand rule is a *convention* that is tied to the convention of depicting coordinate systems in the "right handed way" (e_1 = xhat as into the page, e_2 = yhat as horizontal, e_3 = zhat as up)
 - Presenting the change of variables formula for integrals to be a chance discovery instead of a natural mirroring of the chain rule.
 - Not explaining why "canceling differentials" works when performing separation of variables.
+- Not explaining that the implication operator only takes on its English-langauge meaning when you use it inside a "for all" quantifier.
 - Presenting the correspondence between linear transformations and matrices to be a coeincidence.
+- Favoring the "multilinear function" definition of tensor over the "multilinear element" definition of tensor.
+- Not explaining how each and every one of the topological space axioms generalizes the topological properties of the real numbers.
+- Not mentioning the closure operator characterization of topologies.
