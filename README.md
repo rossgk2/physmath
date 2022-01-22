@@ -16,7 +16,7 @@ My ultimate ambition for this "physmath" project is to develop a series of textb
 
 I love every single one of these topics just as much as the culmination that is differential geometry, so I won't be offended if you decide to stop halfway through the calculus textbook or something like that. (It's not like I'll know if you do so!). 
 
-And let's be real- if even five or so people read some of my precalculus texbook and come away with new insights, I'll be happy. Seriously. Precalculus is one of math's subjects that is treated the worst!
+And let's be real- if even five or so people read some of just my precalculus texbook and come away with new insights, I'll be happy. Seriously. Precalculus is one of math's subjects that is treated the worst!
 
 # Towards actually satisfyingly explained math
 
