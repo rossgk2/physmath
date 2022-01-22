@@ -1,4 +1,4 @@
-# Syllabus
+# Physically-inspired math
 My ultimate ambition for this "physmath" project is to develop a series of textbooks that *satisfyingly* explain a lot of physically-inspired math, starting from precalculus. Here's the rough syllabus:
 
 - Thoughts on how to learn math (2 pages)
