@@ -28,7 +28,7 @@ I admit, it is unlikely that a single person would be able to independently make
 
 ## Particular sins of traditional math
 
-Aside from distancing itself from the "conjecture and prove" approach, there are many specific instances in which traditional approaches to math fail that my work rectifies. Here's a list of sins typical math commits that my works rectify:
+Aside from distancing itself from the "conjecture and prove" approach, there are many specific failings of traditional pedagogy that my work rectify. Here's a list of some of these sins:
 
 - Not stopping to pause at the fact that pi being a constant, and not a function of a circle's radius, is actually kinda cool.
 - In the precalculus setting, saying things such as "let y = f(x)", and therby conflating functions (e.g. f) with functions evaluated on inputs (e.g. f(x)).
