@@ -30,6 +30,7 @@ I admit, it is unlikely that a single person would be able to independently make
 
 Aside from distancing itself from the "conjecture and prove" approach, there are many specific instances in which traditional approaches to math fail that my work rectifies. Here's a list of sins typical math commits that my works rectify:
 
+- Not stopping to pause at the fact that pi being a constant, and not a function of the radius of the circle, is actually kinda cool.
 - In the precalculus setting, conflating functions (e.g. f) with functions evaluated on inputs (e.g. f(x)).
 - Not explaning why definitions involving exponents, such as b^x := 1/b^{-x} are natural.
 - Stating the chain rule by using the vague notion of differentiation with respect to "u = g(x)", rather than defining df/dg := f' compose g, and stating the chain rule as d(f compose g)/dx = df/dg dg/dx.
