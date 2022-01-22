@@ -33,7 +33,7 @@ Aside from distancing itself from the "conjecture and prove" approach, there are
 - Not stopping to pause at the fact that pi being a constant, and not a function of a circle's radius, is actually kinda cool.
 - In the precalculus setting, saying things such as "let y = f(x)", and therby conflating functions (e.g. f) with functions evaluated on inputs (e.g. f(x)).
 - Not explaning why definitions involving exponents such as b^x := 1/b^{-x} are natural.
-- Stating the chain rule by using the vague notion of differentiation with respect to "u = g(x)", rather than defining df/dg := f' compose g, and stating the chain rule as d(f compose g)/dx = df/dg dg/dx.
+- Stating the chain rule by using the vague notion of differentiation with respect to "u = g(x)", rather than defining df/dg := f' compose g and stating the chain rule as d(f compose g)/dx = df/dg dg/dx.
 - Defining e and the natural logarithm by "jumping to the conclusion" and skipping all relevant motivation. (Typically, ln will defined to be a definite integral of 1/x, and e will either be defined to be a limit, or as the result of a convergent series, or as ln^{-1}(1)).
 - Not giving memorable intuition for the facts ln(x y) = ln(x) + ln(y) and ln(x^y) = y log(x). At best, the traditional approach relies on the proof that begins by taking ln of both sides of e^{x + y} = e^x + e^y.
 - Not explaining why the following two definitions of the dot product are equivalent: (1) v . w := |v||w|cos(theta) and (2) v . w := v_1 w_1 + ... + v_n w_n. When traditional math *does* explain, it uses the unintuitive law of cosines to do so.
