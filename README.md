@@ -22,18 +22,21 @@ And let's be real- if even five or so people read some of just my precalculus te
 
 Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to mathematics overuse/abuse. 
 
-In "conjecture and prove", concept definitions are often given no real motivation (the "motivation" is often historical- e.g. "the Greeks noticed this", "Euler noticed that"); the proposed truths (conjectures) are always plausable enough, but also lack motivation and seem to somewhat pop out of thin air; and the proofs of truths are unenlightening, since they are treated as tasks to be ticked off of a to-do list rather than as lines of reasonings to be deeply understood.
+The "conjecture and prove" pedagogy is defined by the following three failings:
+- Concept definitions are often given no real motivation (the "motivation" is often historical- e.g. "the Greeks noticed this", "Euler noticed that").
+- The proposed truths (conjectures) are always plausable enough, but also lack motivation and seem to somewhat pop out of thin air.
+- The proofs of truths are unenlightening, since they are treated as tasks to be ticked off of a to-do list rather than as lines of reasoning to be deeply understood.
 
-This is wrong because most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
+Satisfyingly explained math is diametrically opposed to "conjecture and prove" math, and recognizes these three core tenets:
+- Concept definitions must be given real motivation.
+- Conjectures must be given real motivation. The best way to motivate a conjecture is to derive it (prove that it is true) by starting from previously known ideas and following a natural/plausible avenue of investigation.
+- A good proof is simultaneously a proof and an explanation. That is, a good proof is a self-explaining proof.
 
- This is wrong because *a good proof is simultaneously a proof and an explanation*.
+If you combine the above three core tenets, you realize that satisfyingly explained math is characterized by the following *two* tenets:
+- Concept definitions must be given real motivation.
+- Whenever possible, derive facts with a self-explaining proof instead of conjecture-and-proving them. If you must use the conjecture-prove approach, make sure the conjecture has real motivation and that the proof is self-explaining.
 
-In my view, satisfyingly explained math *motivates* (provides reason for) each concept definition and 
-
-
-
-
-So, here is what I mean by "satisfying". **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.** These avenues of discovery should be natural enough so that, if one were hypothetically restricted from access to any outside resources- like textbooks, notes, the Internet- they would be able to retrace the concept's story and reobtain all the details.
+A more heuristic categorization of satisfyingly explained math is that a concept has been satisfactiorly explained if, in the scenario where one is hypothetically restricted from access to any outside resources- like textbooks, notes, the Internet- they are able to retrace the concept's story and reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.** These avenues of discovery should be natural enough so that, if one were hypothetically restricted from access to any outside resources- like textbooks, notes, the Internet- they would be able to retrace the concept's story and reobtain all the details.
 
 I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long time.
 
