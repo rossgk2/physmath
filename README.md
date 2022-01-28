@@ -20,7 +20,18 @@ And let's be real- if even five or so people read some of just my precalculus te
 
 # Towards actually satisfyingly explained math
 
-Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to mathematics overuse/abuse. In "conjecture and prove", the proposed truths are always plausable enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. Yeah, it's true that some ideas are radical enough perspective shifts that they can only be percieved as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
+Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to mathematics overuse/abuse. 
+
+In "conjecture and prove", concept definitions are often given no real motivation (the "motivation" is often historical- e.g. "the Greeks noticed this", "Euler noticed that"); the proposed truths (conjectures) are always plausable enough, but also lack motivation and seem to somewhat pop out of thin air; and the proofs of truths are unenlightening, since they are treated as tasks to be ticked off of a to-do list rather than as lines of reasonings to be deeply understood.
+
+This is wrong because most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
+
+ This is wrong because *a good proof is simultaneously a proof and an explanation*.
+
+In my view, satisfyingly explained math *motivates* (provides reason for) each concept definition and 
+
+
+
 
 So, here is what I mean by "satisfying". **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.** These avenues of discovery should be natural enough so that, if one were hypothetically restricted from access to any outside resources- like textbooks, notes, the Internet- they would be able to retrace the concept's story and reobtain all the details.
 
