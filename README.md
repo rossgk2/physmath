@@ -48,7 +48,7 @@ If you combine the above three core tenets, you realize that satisfyingly explai
 
 ## Particular sins of traditional math
 
-Aside from distancing itself from the "conjecture and prove" approach, there are many specific failings of traditional pedagogy that my work rectify. Here's a list of some of these sins:
+Here's a list of sins that traditional math commits (a good amount of these sins are resultant from the "conjecture and prove" philosophy, but not all of them are):
 
 - Not stopping to pause at the fact that pi being a constant, and not a function of a circle's radius, is actually kinda cool.
 - In the precalculus setting, saying things such as "let y = f(x)", and therby conflating functions (e.g. f) with functions evaluated on inputs (e.g. f(x)).
