@@ -36,9 +36,9 @@ Satisfyingly explained math is diametrically opposed to "conjecture and prove" m
 
 If you combine the above three core tenets, you realize that satisfyingly explained math is characterized by the following *two* tenets:
 - Concept definitions must be given real motivation.
-- Whenever possible, derive facts with a self-explaining proof instead of conjecture-and-proving them. If you must use the conjecture-prove approach, make sure the conjecture has real motivation and that the proof is self-explaining.
+- Whenever possible, truths should be derived via self-explaining proof instead via conjecture-and-proof them. If you must use the conjecture-prove approach, make sure the conjecture has real motivation and that the proof is self-explaining.
 
-A more heuristic categorization of satisfyingly explained math is that a concept has been satisfactiorly explained if, in the scenario where one is hypothetically restricted from access to any outside resources- like textbooks, notes, the Internet- they are able to retrace the concept's story and reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.** These avenues of discovery should be natural enough so that, if one were hypothetically restricted from access to any outside resources- like textbooks, notes, the Internet- they would be able to retrace the concept's story and reobtain all the details.
+A more heuristic categorization of satisfyingly explained math is that a concept has been satisfactiorly explained if, in the scenario where you were restricted from access to any outside resources- like textbooks, notes, the Internet- you could retrace the concept's story and reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
 
 I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long time.
 
