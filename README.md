@@ -20,11 +20,15 @@ And let's be real- if even five or so people read some of just my precalculus te
 
 # Towards actually satisfyingly explained math
 
-Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to mathematics overuse/abuse. 
+Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to mathematics overuse/abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausable enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. Yeah, it's true that some ideas are radical enough perspective shifts that they can only be percieved as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
 
-A more heuristic categorization of satisfyingly explained math is that a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you could retrace the concept's story and reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
+Satisfyingly explained math is essentially the opposite of "conjecture and prove" math. A heuristic categorization of satisfyingly explained math is that a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you could retrace the concept's story and reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
 
 I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long time.
+
+## Specifics of pedagogy
+
+Here are some more specifics on the failings of "conjecture and prove" and on what exactly I think of as satisfingly explained math.
 
 The "conjecture and prove" pedagogy is defined by the following three failings:
 - Concept definitions are often given no real motivation (the "motivation" is often historical- e.g. "the Greeks noticed this", "Euler noticed that").
