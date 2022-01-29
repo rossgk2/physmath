@@ -30,6 +30,7 @@ The "conjecture and prove" pedagogy is defined by the following three failings:
 
 Satisfyingly explained math is diametrically opposed to "conjecture and prove" math, and recognizes these three core tenets:
 - Concept definitions must be given real motivation.
+  - As is suggested in the coorresponding sub-bulletpoint above, a common way to motivate a definition is to prove, *before* the definition is stated, that the definition describes objects for which a meaningful statement holds. 
 - Conjectures must be given real motivation. The best way to motivate a conjecture is to derive it (prove that it is true) by starting from previously known ideas and following a natural/plausible avenue of investigation.
 - A good proof is simultaneously a proof and an explanation. That is, a good proof is a self-explaining proof.
 
