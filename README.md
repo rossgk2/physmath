@@ -48,7 +48,7 @@ If you combine the above three core tenets, you realize that satisfyingly explai
 
 ### The dreaded "efficency" pedagogy
 
-Another mathematical philosophy to be desparately avoided, even worse than "conjecture and prove", is what I call the "efficency" pedagogy. The efficency pedagogy goes as follows. Suppose we are describing a mathematical object, and that we know that the object has property N exactly when the object has propety W. Suppose also that property N is a natural and intuitive sort of property, and that property W is wacky and esoteric.
+Another mathematical philosophy to be desparately avoided, even worse than "conjecture and prove", is what I call the "efficency" pedagogy. The efficency pedagogy goes as follows. Suppose we are describing a mathematical object, and that we know that the object has property N exactly when the object also has propety W. Suppose also that property N is a natural and intuitive sort of property, and that property W is wacky and esoteric.
 
 If we are presenting this material, what we *should* do is first define property N, since it is more intuitive, and then prove that property W follows from property N, *even if* it is easier to prove that property N follows from property W. It doesn't make sense to start with W- no one would dream up W in the first place without discovering N first!
 
