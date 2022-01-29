@@ -20,9 +20,9 @@ And let's be real- if even five or so people read some of just my precalculus te
 
 # Towards actually satisfyingly explained math
 
-Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to mathematics overuse/abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausable enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. Yeah, it's true that some ideas are radical enough perspective shifts that they can only be percieved as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
+Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to higher mathematics overuse/abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausable enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. Yeah, it's true that some ideas are radical enough perspective shifts that they can only be percieved as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
 
-Satisfyingly explained math is essentially the opposite of "conjecture and prove" math. A heuristic categorization of satisfyingly explained math is that a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you could retrace the concept's story and reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
+Satisfyingly explained math is essentially the opposite of "conjecture and prove" math. Heuristically, a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you can retrace the concept's story and eventually reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
 
 I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long time.
 
@@ -45,6 +45,20 @@ Satisfyingly explained math is diametrically opposed to "conjecture and prove" m
 If you combine the above three core tenets, you realize that satisfyingly explained math is characterized by the following *two* tenets:
 - Concept definitions must be given real motivation.
 - Whenever possible, truths should be derived via self-explaining proof instead via conjecture-and-proof them. If you must use the conjecture-prove approach, make sure the conjecture has real motivation and that the proof is self-explaining.
+
+### The dreaded "efficency" pedagogy
+
+Another mathematical philosophy to be desparately avoided, even worse than "conjecture and prove", is what I call the "efficency" pedagogy. The efficency pedagogy goes as follows. Suppose we are describing a mathematical object, and that we know that the object has property N exactly when the object has propety W. Suppose also that property N is a natural and intuitive sort of property, and that property W is wacky and esoteric.
+
+If we are presenting this material, what we *should* do is first define property N, since it is more intuitive, and then prove that property W follows from property N, *even if* it is easier to prove that property N follows from property W. It doesn't make sense to start with W- no one would dream up W in the first place without discovering N first!
+
+The "efficency" pedagogy doesn't care about this. If it is easier to prove that N follows from W, then the "efficency" pedagogy will first state W and then prove N.
+
+If you think about it, the "efficency" pedagogy isn't actually that efficent. Sure, it may take less logic to prove W => N than it does to prove N => W, but, if one is to truly *understand* the material, they will eventually have to prove N => W. It is better to start with N => W, as it eliminates unnecessary confusion and elucidates what is really going on.
+
+A prime example of the "efficency" pedagogy is the typical way in which e, e^x, and ln(x) are defined. One common approach in to define ln(x) with a definite integral, then define x -> e^x to be the inverse function to x -> ln(x), and then define e := e^1. This approach establishes all relevant facts about e^x and ln(x), such as d/dx e^x = e^x, but it does not explain why the facts are true. All of the other common approaches have this same issue. 
+
+The one correct approach is to notice that d/dx b^x = c_b * b^x for some constant c_b, and then define e to be the b for which c_b = 1. Thus d/dx e^x = e^x. We also define ln to be the inverse function to x -> e^x. You can the details in my calculus textbook.
 
 ## Particular sins of traditional math
 
