@@ -24,6 +24,7 @@ Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's t
 
 The "conjecture and prove" pedagogy is defined by the following three failings:
 - Concept definitions are often given no real motivation (the "motivation" is often historical- e.g. "the Greeks noticed this", "Euler noticed that").
+  - In particular, the following malpractice regarding definitions is often followed: (1) define what it means for an object to have a certain property P, then and (2) prove a theorem that states that having this certain property is equivalent to another statement S. A much better way to present the same information is to: (1) derive via a natural investigation that statement S is true for objects that have certain property, and (2) define objects with said property to be "objects with property P". This provides automatic movitation for why objects with property P matter.
 - The proposed truths (conjectures) are always plausable enough, but also lack motivation and seem to somewhat pop out of thin air.
 - The proofs of truths are unenlightening, since they are treated as tasks to be ticked off of a to-do list rather than as lines of reasoning to be deeply understood.
 
