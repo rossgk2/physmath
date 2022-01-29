@@ -22,6 +22,10 @@ And let's be real- if even five or so people read some of just my precalculus te
 
 Okay, but what makes "satisfying" math? I certaintly want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to mathematics overuse/abuse. 
 
+A more heuristic categorization of satisfyingly explained math is that a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you could retrace the concept's story and reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
+
+I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long time.
+
 The "conjecture and prove" pedagogy is defined by the following three failings:
 - Concept definitions are often given no real motivation (the "motivation" is often historical- e.g. "the Greeks noticed this", "Euler noticed that").
   - In particular, the following malpractice regarding definitions is often followed: first define what it means for an object to have a certain property P, and then prove a theorem that states that having this certain property is equivalent to another statement S. This approach is malpractice because the reader likely pauses after the definition of property P to ask themselves, "Why are objects with propety P important?". Of course, if the reader is experienced, then they will know to expect that the answer to the question is coming soon- they will get their answer when they read the theorem that equates property P to a statement S- but if the reader is not experienced, then they may feel immediately lost. A much better way to present the same information is to switch the order of theorem and definition. That is: first derive via a natural investigation that statement S is true for objects that have a certain property, and then define objects with said property to be "objects with property P". This provides automatic movitation for why objects with property P matter.
@@ -37,10 +41,6 @@ Satisfyingly explained math is diametrically opposed to "conjecture and prove" m
 If you combine the above three core tenets, you realize that satisfyingly explained math is characterized by the following *two* tenets:
 - Concept definitions must be given real motivation.
 - Whenever possible, truths should be derived via self-explaining proof instead via conjecture-and-proof them. If you must use the conjecture-prove approach, make sure the conjecture has real motivation and that the proof is self-explaining.
-
-A more heuristic categorization of satisfyingly explained math is that a concept has been satisfactiorly explained if, in the scenario where you were restricted from access to any outside resources- like textbooks, notes, the Internet- you could retrace the concept's story and reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
-
-I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long time.
 
 ## Particular sins of traditional math
 
