@@ -56,9 +56,7 @@ The "efficency" pedagogy doesn't care about this. If it is easier to prove that 
 
 If you think about it, the "efficency" pedagogy isn't actually that efficent. Sure, it may take less logic to prove W => N than it does to prove N => W, but, if one is to truly *understand* the material, they will eventually have to prove N => W. It is better to start with N => W, as it eliminates unnecessary confusion and elucidates what is really going on.
 
-A prime example of the "efficency" pedagogy is the typical way in which e, e^x, and ln(x) are defined. One common approach in to define ln(x) with a definite integral, then define x -> e^x to be the inverse function to x -> ln(x), and then define e := e^1. This approach establishes all relevant facts about e^x and ln(x), such as d/dx e^x = e^x, but it does not explain why the facts are true. All of the other common approaches have this same issue. 
-
-The one correct approach is to notice that d/dx b^x = c_b * b^x for some constant c_b, and then define e to be the b for which c_b = 1. Thus d/dx e^x = e^x. We also define ln to be the inverse function to x -> e^x. You can the details in my calculus textbook.
+A prime example of the "efficency" pedagogy is the typical way in which e, e^x, and ln(x) are defined. One common approach in to define ln(x) with a definite integral, then define x -> e^x to be the inverse function to x -> ln(x), and then define e := e^1. This approach establishes all relevant facts about e^x and ln(x), such as d/dx e^x = e^x, but it does give an intuition for why the facts are true. All of the other common approaches have this same issue. (The one pedagogically correct approach is to notice that d/dx b^x = c_b * b^x for some constant c_b, and then define e to be the b for which c_b = 1. Thus d/dx e^x = e^x. We also define ln to be the inverse function to x -> e^x. You can the details in my calculus textbook).
 
 ## Particular sins of traditional math
 
