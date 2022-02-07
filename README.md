@@ -69,6 +69,7 @@ Here's a list of sins that traditional math commits (a good amount of these sins
 - Not stopping to pause at the fact that pi being a constant, and not a function of a circle's radius, is actually kinda cool.
 - In the precalculus setting, saying things such as "let y = f(x)", and thereby conflating functions (e.g. f) with functions evaluated on inputs (e.g. f(x)).
 - Not explaning why definitions involving exponents such as b^x := 1/b^{-x} are natural.
+- Glossing over the fact that the nth root of x is *different notation* for x^{1/n}, and instead insinuating that one could somehow prove that the nth root of x is equal to x^{1/n}. (Both denote the evaluation of the inverse function of x -> x^n at x).
 - Not giving memorable intuition for the facts log_b(x y) = log_b(x) + log_b(y) and log_b(x^y) = y log(x). At best, the traditional approach relies on the proof that begins by taking ln of both sides of b^{x + y} = b^x + b^y. (That's the best *proof* there is, but it isn't the best intution).
 - Making students memorize rules that describe the end behavior of rational functions rather than emphasizing the practice of deriving these rules with limits at infinity. 
 - Stating the chain rule by using the vague notion of differentiation with respect to "u = g(x)", rather than defining df/dg := f' compose g and stating the chain rule as d(f compose g)/dx = df/dg dg/dx.
