@@ -25,7 +25,6 @@ linear algebra
 - simplify matrix derivations so that they correspond to linear functions K^n -> K^m
 
 github readme
-- add to list: better FTC 2 => FTC 1 than other way. but is it even common practice to do FTC 1 => FTC 2?
 - sometimes, theorems are not stated in the most memorable way
   - Cauchy-Schwarz
   - rank-nullity
