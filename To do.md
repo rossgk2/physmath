@@ -1,9 +1,16 @@
 precalc
 - add note on why precalc matters: gives you a foundation for modeling phenomena. so is inherently useful even if you don't learn calc afterwards.
 - add remark that "f = f(x)" is bad but don't make it more complicated than that
+- add explanation of "FOIL" and remark that you shouldn't rely on a mnemonic such as "FOIL"
 
 calc
 
+- attribute prime notation to Lagrange, not Newton 
+- f(g) is better notation than f \circ g for calculus purposes
+- formalize conflation of f with f(x)? then we conflate g(f) and g(f(x)), which makes some sense.
+- int f(g) dg/dx = int f dg has two uses. when read left to right it formalizes the notion of canceling differentials. when read right to left it provides a way to change variables.
+  - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand"
+  - explain how variables are actually changed from g to x. 
 - edit entire calc book to incorporate "improved physicist's Leibniz notation"; i.e. Leibniz notation that makes use of the notion of preferred letters and functions such as S_T
   - add note that "S = T" means "sym(S) = sym(T)"
   - will still need to include defn. df/dx := f' or f(x) where the choice is determined by context 
