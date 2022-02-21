@@ -1,3 +1,9 @@
+advice for learning math
+- when doing calculations, don't try to do too much in your head. write out each step on paper. this will help you make less mistakes. for example, something I always do is take an extra step to distribute negative signs when expanding polynomial expressions such as x^2 + 3 - (x - 3)^2. I would write x^2 + 3 - (x - 3)^2 = x^2 + 3 - (x^2 - 6x + 9) = x^2 + 3 - x^2 + 6x - 9 = 6x - 6. some people might skip writing out the second to last equation but I always do it. 
+- Build on your own knowledge. This is most relevant when some later concept requires you to make use of a convention regarding an earlier concept. I advise you to investigate what the later concept would look like if a different convention was the norm. Then choose, or come up with, a convention that you think is most intuitive.
+- I personally learn by organizing information. I read stuff from a textbook, and then reorganize it into a way that I think is more natural (since textbooks often present information in slightly unnatural ways). When reading unsatisfyingly organized information, doing this is a good way to learn.
+- When you're reading something that is satisfyingly organized, I advise learning by writing down on your own paper- as you read- the most important definitions and facts you come across. See if you can boil everything important down into a list of bullet points.
+
 precalc
 - add note on why precalc matters: gives you a foundation for modeling phenomena. so is inherently useful even if you don't learn calc afterwards.
 - add remark that "f = f(x)" is bad but don't make it more complicated than that
