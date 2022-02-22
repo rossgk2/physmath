@@ -2,7 +2,7 @@ advice for learning math
 - when doing calculations, don't try to do too much in your head. write out each step on paper. this will help you make less mistakes. for example, something I always do is take an extra step to distribute negative signs when expanding polynomial expressions such as x^2 + 3 - (x - 3)^2. I would write x^2 + 3 - (x - 3)^2 = x^2 + 3 - (x^2 - 6x + 9) = x^2 + 3 - x^2 + 6x - 9 = 6x - 6. some people might skip writing out the second to last equation but I always do it. 
 - Build on your own knowledge. This is most relevant when some later concept requires you to make use of a convention regarding an earlier concept. I advise you to investigate what the later concept would look like if a different convention was the norm. Then choose, or come up with, a convention that you think is most intuitive.
 - I personally learn by organizing information. I read stuff from a textbook, and then reorganize it into a way that I think is more natural (since textbooks often present information in slightly unnatural ways). When reading unsatisfyingly organized information, doing this is a good way to learn.
-- When you're reading something that is satisfyingly organized, I advise learning by writing down on your own paper- as you read- the most important definitions and facts you come across. See if you can boil everything important down into a list of bullet points.
+- When you're reading something that is satisfyingly organized, I advise learning by writing down the most important definitions and facts you come across as you read. See if you can boil everything important down into a list of bullet points.
 
 precalc
 - add note on why precalc matters: gives you a foundation for modeling phenomena. so is inherently useful even if you don't learn calc afterwards.
@@ -12,11 +12,16 @@ precalc
 calc
 
 - attribute prime notation to Lagrange, not Newton 
-- f(g) is better notation than f \circ g for calculus purposes
-- formalize conflation of f with f(x)? then we conflate g(f) and g(f(x)), which makes some sense.
+- explain Leibniz notation by doing these things in some order:
+  -- remark that f(g) is better notation than f \circ g for calculus purposes
+  -- state chain rule in prime notation: g(f)' = g'(f) f'
+  -- introduce the notion of preferred letters and the notation S_T := S(Sbar)(T),
+  introduce the notion of conflating S with S_Sbar
+  -- define df(g(x))/dg(x) := f'(g(x)). note, f(g(x)) = f(g)(x), so presumably df(g(x))/dx = d(f(g)(x))/dg(x). but in this last expression, we still don't know what having a function in the "denominator" means, so the definition is necessary. also define df(g)/dg := x -> df(g(x))/dg(x) = f'(g)
+  -- note: may seem weird, but if gbar = f and fbar = x, then (dg/df)bar = x. in particular this means dg/df df/dx makes sense, since dg/df and df/dx both have a preferred letter of x. 
 - int f(g) dg/dx = int f dg has two uses. when read left to right it formalizes the notion of canceling differentials. when read right to left it provides a way to change variables.
   - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand"
-  - explain how variables are actually changed from g to x. 
+    -- explain how variables are actually changed from g to x. 
 - edit entire calc book to incorporate "improved physicist's Leibniz notation"; i.e. Leibniz notation that makes use of the notion of preferred letters and functions such as S_T
   - add note that "S = T" means "sym(S) = sym(T)"
   - will still need to include defn. df/dx := f' or f(x) where the choice is determined by context 
