@@ -12,13 +12,19 @@ precalc
 calc
 
 - attribute prime notation to Lagrange, not Newton 
-- explain Leibniz notation by doing these things in some order:
-  -- remark that f(g) is better notation than f \circ g for calculus purposes
-  -- state chain rule in prime notation: g(f)' = g'(f) f'
-  -- introduce the notion of preferred letters and the notation S_T := S(Sbar)(T),
-  introduce the notion of conflating S with S_Sbar
-  -- define df(g(x))/dg(x) := f'(g(x)). note, f(g(x)) = f(g)(x), so presumably df(g(x))/dx = d(f(g)(x))/dg(x). but in this last expression, we still don't know what having a function in the "denominator" means, so the definition is necessary. also define df(g)/dg := x -> df(g(x))/dg(x) = f'(g)
-  -- note: may seem weird, but if gbar = f and fbar = x, then (dg/df)bar = x. in particular this means dg/df df/dx makes sense, since dg/df and df/dx both have a preferred letter of x. 
+
+explain Leibniz notation by doing these things in some order:
+
+- remark that f(g) is better notation than f \circ g for calculus purposes
+- state chain rule in prime notation: g(f)' = g'(f) f'
+- introduce the notion of preferred letters.
+  - Sbar := the preferred letter of S 
+  - S_T := S(Sbar)(T)
+- introduce the notion of conflating S with S_Sbar
+- define df(g(x))/dg(x) := f'(g(x)). note, f(g(x)) = f(g)(x), so presumably df(g(x))/dx = d(f(g)(x))/dg(x). but in this last expression, we still don't know what having a function in the "denominator" means, so the definition is necessary. also define df(g)/dg := x -> df(g(x))/dg(x) = f'(g)
+  - how does this interplay with the preferred letters stuff? this is necessary because these are common conventions, but there might be more to it than that.
+- note: may seem weird, but if gbar = f and fbar = x, then (dg/df)bar = x. in particular this means dg/df df/dx makes sense, since dg/df and df/dx both have a preferred letter of x. 
+
 - int f(g) dg/dx = int f dg has two uses. when read left to right it formalizes the notion of canceling differentials. when read right to left it provides a way to change variables.
   - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand"
     -- explain how variables are actually changed from g to x. 
