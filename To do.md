@@ -5,6 +5,10 @@ advice for learning math
 - When you're reading something that is satisfyingly organized, I advise learning by writing down the most important definitions and facts you come across as you read. See if you can boil everything important down into a list of bullet points.
 
 precalc
+- possibly add section that summarizes things you learn in algebra
+  - notation for multiplication: \times, \cdot, and parentheses
+  - you "solve equations" by doing the same operation to both sides of the equation 
+  - "FOIL" and why it works  
 - add note on why precalc matters: gives you a foundation for modeling phenomena. so is inherently useful even if you don't learn calc afterwards.
 - add remark that "f = f(x)" is bad but don't make it more complicated than that
 - add explanation of "FOIL" and remark that you shouldn't rely on a mnemonic such as "FOIL"
@@ -16,13 +20,15 @@ calc
 - explain Leibniz notation by doing these things in some order:
   - remark that f(g) is better notation than f \circ g for calculus purposes
   - state chain rule in prime notation: g(f)' = g'(f) f'
+  - define df(g(x))/dg(x) := f'(g(x)). note, f(g(x)) = f(g)(x), so presumably df(g(x))/dx = d(f(g)(x))/dg(x). but in this last expression, we still don't know what having a function in the "denominator" means, so the definition is necessary. also define df(g)/dg := x -> df(g(x))/dg(x) = f'(g)
+  - now chain rule can be stated in a slightly better way (one way in terms of functions eval'ed on inputs and one way in terms of functions)
   - introduce the notion of preferred letters.
     - Sbar := the preferred letter of S 
     - S_T := S(Sbar)(T)
   - introduce the notion of conflating S with S_Sbar
-  - define df(g(x))/dg(x) := f'(g(x)). note, f(g(x)) = f(g)(x), so presumably df(g(x))/dx = d(f(g)(x))/dg(x). but in this last expression, we still don't know what having a function in the "denominator" means, so the definition is necessary. also define df(g)/dg := x -> df(g(x))/dg(x) = f'(g)
-    - how does this interplay with the preferred letters stuff? this is necessary because these are common conventions, but there might be more to it than that.
   - note: may seem weird, but if gbar = f and fbar = x, then (dg/df)bar = x. in particular this means dg/df df/dx makes sense, since dg/df and df/dx both have a preferred letter of x. 
+  - now chain rule can be stated in the way we want: if gbar = f and fbar = x then dg/dx = dg/df df/dx
+  - define "f is a function of x" <=> fbar = x
 - int f(g) dg/dx = int f dg has two uses. when read left to right it formalizes the notion of canceling differentials. when read right to left it provides a way to change variables.
   - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand"
     -- explain how variables are actually changed from g to x. 
