@@ -47,10 +47,17 @@ calc
 logic
 - "P => Q" and "P <=> Q" are short for "(P => Q) =~ T" and "(P <=> Q) =~ T"
 
-linear algebra
-
-- discussion of R^n and finite dimensional vector spaces over R before vector space over field defn
-- simplify matrix derivations so that they correspond to linear functions K^n -> K^m
+tensors
+- introduce staggered indices in defn of coordinates of a (p, q) tensor
+- replace a^i_j and ij with ^i_j, ^ij, and \_ij after introduction of staggered indices
+- move proof of \[v\]\_E^i = phi^e_i(v) and \[phi\]\_E* = phi(e_i) to after derivation of induced dual basis
+- CTRL-F "alternization" and replace with "antisymmetrization" when necessary; the alt operator should probably be renamed to be asym
+- if dim(V) = n, can the Hodge dual \*:Lambda^k V -> Lambda^(n - k) V be deduced from \*:Lambda^{n - 1} V -> V?
+- Investigate the relationship between interior multiplication and the Hodge dual.
+- Is it best to think of \totimes, \twedge as induced, or as special cases of \otimes, \wedge for different spaces? (by "special cases", I refer to fact that \totimes and \twedge are the versions of \otimes and \wedge on certain spaces, specifically, the versions that satisfy (phi^1 \otimes ... \otimes \phi^n)(e_1, ..., e_n) = prod_i phi^i(e_i), and a sim. characterizing property)
+- Bases used for orientation on a vector space with metric tensor should often be assumed to be orthonormal, because we can always use Gram-Schmidt to get at an underlying orthonormal basis
+- A choice of basis on a vector space does in some sense induce a dual basis, maybe? A choice of basis induces the "dot product" on the vector space, and that has an associated musical isomorphism. (I suspect that the "dot product" may only be a metric tensor when the basis is orthonormal, though...)
+- The purpose of T \wedge S := \alt(T \otimes S) isn't to demonstrate a model for \wedge, but to show that V^{\wedge k} \subseteq T^k_0(V)
 
 github readme
 - sometimes, theorems are not stated in the most memorable way
