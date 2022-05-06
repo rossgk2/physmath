@@ -57,6 +57,7 @@ tensors
 - Is it best to think of \totimes, \twedge as induced, or as special cases of \otimes, \wedge for different spaces? (by "special cases", I refer to fact that \totimes and \twedge are the versions of \otimes and \wedge on certain spaces, specifically, the versions that satisfy (phi^1 \otimes ... \otimes \phi^n)(e_1, ..., e_n) = prod_i phi^i(e_i), and a sim. characterizing property)
 - Bases used for orientation on a vector space with metric tensor should often be assumed to be orthonormal, because we can always use Gram-Schmidt to get at an underlying orthonormal basis
 - A choice of basis on a vector space does in some sense induce a dual basis, maybe? A choice of basis induces the "dot product" on the vector space, and that has an associated musical isomorphism. (I suspect that the "dot product" may only be a metric tensor when the basis is orthonormal, though...)
+- After the "orthonormal <=> self-dual" remark, use the notation $\huu_1, ..., \huu_n$ for bases when speaking of a induced dual basis rather than the notation $\ee_1, ..., \ee_n$?
 - The purpose of T \wedge S := \alt(T \otimes S) isn't to demonstrate a model for \wedge, but to show that V^{\wedge k} \subseteq T^k_0(V)
 
 github readme
