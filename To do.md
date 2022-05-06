@@ -59,6 +59,7 @@ tensors
 - A choice of basis on a vector space does in some sense induce a dual basis, maybe? A choice of basis induces the "dot product" on the vector space, and that has an associated musical isomorphism. (I suspect that the "dot product" may only be a metric tensor when the basis is orthonormal, though...)
 - After the "orthonormal <=> self-dual" remark, use the notation $\huu_1, ..., \huu_n$ for bases when speaking of a induced dual basis rather than the notation $\ee_1, ..., \ee_n$?
 - The purpose of T \wedge S := \alt(T \otimes S) isn't to demonstrate a model for \wedge, but to show that V^{\wedge k} \subseteq T^k_0(V)
+- improve section on orientation forms if necessary (add footnote on the terminology "volume form", maybe even use it myself; add a section "volume forms and the metric tensor"
 
 github readme
 - sometimes, theorems are not stated in the most memorable way
