@@ -47,6 +47,12 @@ calc
 logic
 - "P => Q" and "P <=> Q" are short for "(P => Q) =~ T" and "(P <=> Q) =~ T"
 
+linear algebra
+- remove the c, d in \R^n, k \in \R convention and use v, w \in \R^n, c \in \R instead
+- graphically emphasize that closure under addition and scalar multiplication are the most important vector space axioms
+- finish converting matrices section into setting of linear functions K^n -> K^m
+- finish systems of linear equations section
+
 tensors
 - introduce staggered indices in defn of coordinates of a (p, q) tensor
 - replace a^i_j and ij with ^i_j, ^ij, and \_ij after introduction of staggered indices
