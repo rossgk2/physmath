@@ -18,9 +18,9 @@ calc
 - attribute prime notation to Lagrange, not Newton 
 
 - explain Leibniz notation by doing these things in some order:
-  - remark that f(g) is better notation than f \circ g for calculus purposes
-  - state chain rule in prime notation: g(f)' = g'(f) f'
-  - define df(g(x))/dg(x) := f'(g(x)). note, f(g(x)) = f(g)(x), so presumably df(g(x))/dx = d(f(g)(x))/dg(x). but in this last expression, we still don't know what having a function in the "denominator" means, so the definition is necessary. also define df(g)/dg := x -> df(g(x))/dg(x) = f'(g)
+  - remark that $f(g)$ is better notation than $f \circ g$ for calculus purposes
+  - state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
+  - The following shouldn't need to be a definition, but no one actually interprets the notation $\frac{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
   - now chain rule can be stated in a slightly better way (one way in terms of functions eval'ed on inputs and one way in terms of functions)
   - introduce the notion of preferred letters.
     - Sbar := the preferred letter of S 
