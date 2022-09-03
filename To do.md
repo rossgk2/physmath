@@ -22,13 +22,6 @@ calc
   - state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
   - The following shouldn't need to be a definition, but no one actually interprets the notation $\frac{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
   - now chain rule can be stated in a slightly better way (one way in terms of functions eval'ed on inputs and one way in terms of functions)
-  - introduce the notion of preferred letters.
-    - Sbar := the preferred letter of S 
-    - S_T := S(Sbar)(T)
-  - introduce the notion of conflating S with S_Sbar
-  - note: may seem weird, but if gbar = f and fbar = x, then (dg/df)bar = x. in particular this means dg/df df/dx makes sense, since dg/df and df/dx both have a preferred letter of x. 
-  - now chain rule can be stated in the way we want: if gbar = f and fbar = x then dg/dx = dg/df df/dx
-  - define "f is a function of x" <=> fbar = x
 - int f(g) dg/dx = int f dg has two uses. when read left to right it formalizes the notion of canceling differentials. when read right to left it provides a way to change variables.
   - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand"
     -- explain how variables are actually changed from g to x. 
@@ -83,3 +76,12 @@ github readme
   - N2 => N1, so N2, N3 are the only Newton's laws that are necessary
 
   - if the center c of a frame is not accelerating, c'' = 0, then the force mx'' on an object in the frame includes  "fictitious" contribution. this proves that "laws of physics in all nonaccelerating (i.e. inertial) frames are the same". no need to take as axiom
+
+deprecated (don't actually implement this)
+- introduce the notion of preferred letters.
+    - Sbar := the preferred letter of S 
+    - S_T := S(Sbar)(T)
+  - introduce the notion of conflating S with S_Sbar
+  - note: may seem weird, but if gbar = f and fbar = x, then (dg/df)bar = x. in particular this means dg/df df/dx makes sense, since dg/df and df/dx both have a preferred letter of x. 
+  - now chain rule can be stated in the way we want: if gbar = f and fbar = x then dg/dx = dg/df df/dx
+  - define "f is a function of x" <=> fbar = x
