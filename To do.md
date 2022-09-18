@@ -83,6 +83,6 @@ deprecated (don't actually implement this)
     - define " $f$ is a function of $x$ " <=> $\bar{f} = x$. later, define " $f$ is a function of $x_1, ..., x_n$ " <=> similar notation 
     - $S_T$ := function mapping quantities represented by $T$ to quantities represented by $S$
   - introduce the notion of conflating $S$ with $\bar{S}$
-  - note: may seem weird, but if $\bar{g} = f$ and $\bar{f} = x$, then $\bar{\frac{dg}{df}} = x$. in particular this means $\frac{dg}{df} \frac{df}{dx}$ makes sense, since $\frac{dg}{df}$ and $\frac{df}{dx}$ both have a preferred letter of x. 
+  - note: may seem weird, but if $\bar{g} = f$ and $\bar{f} = x$, then $\widebar{\frac{dg}{df}} = x$. in particular this means $\frac{dg}{df} \frac{df}{dx}$ makes sense, since $\frac{dg}{df}$ and $\frac{df}{dx}$ both have a preferred letter of x. 
   - now chain rule can be stated in the way we want: if $\bar{g} = f$ and $\bar{f} = x$ then $\frac{dg}{dx} = \frac{dg}{df} \frac{df}{dx}$
   
