@@ -48,7 +48,7 @@ linear algebra
 tensors
 - introduce staggered indices in defn of coordinates of a (p, q) tensor
 - replace $a^i_j$ and $ij$ with $^i_j$, $^ij$, and $\_ij$ after introduction of staggered indices
-- move proof of $[\mathbf{v}]_E^i = phi^{\mathfrak{e}_i}(\mathbf{v})$ and $([\phi]_{E^*})_i = \phi(\mathfrak{e}_i)$ to after derivation of induced dual basis
+- move proof of \[\vv\]\_E^i = \phi^{\ee_i}(\vv) and (\[\phi\]\_{E^\*})\_i = \phi(\ee_i) to after derivation of induced dual basis
 - CTRL-F "alternization" and replace with "antisymmetrization" when necessary; the alt operator should probably be renamed to be asym
 - if dim(V) = n, can the Hodge dual \*:Lambda^k V -> Lambda^(n - k) V be deduced from \*:Lambda^{n - 1} V -> V?
 - Investigate the relationship between interior multiplication and the Hodge dual.
