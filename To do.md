@@ -1,16 +1,16 @@
 advice for learning math
-- when doing calculations, don't try to do too much in your head. write out each step on paper. this will help you make less mistakes. for example, something I always do is take an extra step to distribute negative signs when expanding polynomial expressions such as x^2 + 3 - (x - 3)^2. I would write x^2 + 3 - (x - 3)^2 = x^2 + 3 - (x^2 - 6x + 9) = x^2 + 3 - x^2 + 6x - 9 = 6x - 6. some people might skip writing out the second to last equation, but I always do it. 
+- when doing calculations, don't try to do too much in your head. write out each step on paper. this will help you make less mistakes. for example, something I always do is take an extra step to distribute negative signs when expanding polynomial expressions such as $x^2 + 3 - (x - 3)^2$. I would write $x^2 + 3 - (x - 3)^2 = x^2 + 3 - (x^2 - 6x + 9) = x^2 + 3 - x^2 + 6x - 9 = 6x - 6$. some people might skip writing out the second to last equation, but I always do it. 
 - Build on your own knowledge. This is most relevant when some later concept requires you to make use of a convention regarding an earlier concept. I advise you to investigate what the later concept would look like if a different convention was the norm. Then choose, or come up with, a convention that you think is most intuitive.
 - I personally learn by organizing information. I read stuff from a textbook, and then reorganize it into a way that I think is more natural (since textbooks often present information in slightly unnatural ways). When reading unsatisfyingly organized information, doing this is a good way to learn.
 - When you're reading something that is satisfyingly organized, I advise learning by writing down the most important definitions and facts you come across as you read. See if you can boil everything important down into a list of bullet points.
 
 precalc
 - possibly add section that summarizes things you learn in algebra
-  - notation for multiplication: \times, \cdot, and parentheses
+  - notation for multiplication: $\times, \cdot$, and $()$
   - you "solve equations" by doing the same operation to both sides of the equation 
   - "FOIL" and why it works  
 - add note on why precalc matters: gives you a foundation for modeling phenomena. so is inherently useful even if you don't learn calc afterwards.
-- add remark that "f = f(x)" is bad but don't make it more complicated than that
+- add remark that "$f = f(x)$" is bad but don't make it more complicated than that
 - add explanation of "FOIL" and remark that you shouldn't rely on a mnemonic such as "FOIL"
 
 calc
@@ -38,7 +38,7 @@ calc
 - phi linear function rmk. add that "linear elts are a gen of vectors"
 
 logic
-- "P => Q" and "P <=> Q" are short for "(P => Q) =~ T" and "(P <=> Q) =~ T"
+- "$P \implies Q$" and "$P \iff Q$" are short for "$(P \implies Q) \cong T$" and "$(P \iff Q) \cong T$"
 
 linear algebra
 - remove the c, d in \R^n, k \in \R convention and use v, w \in \R^n, c \in \R instead
