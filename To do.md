@@ -10,7 +10,7 @@ precalc
   - you "solve equations" by doing the same operation to both sides of the equation 
   - "FOIL" and why it works  
 - add note on why precalc matters: gives you a foundation for modeling phenomena. so is inherently useful even if you don't learn calc afterwards.
-- add remark that "$f = f(x)$" is bad but don't make it more complicated than that
+- add remark that " $f = f(x)$ " is bad but don't make it more complicated than that
 - add explanation of "FOIL" and remark that you shouldn't rely on a mnemonic such as "FOIL"
 
 calc
