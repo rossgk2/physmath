@@ -42,6 +42,7 @@ logic
 - $P \implies Q$ and $P \iff Q$ are short for $(P \implies Q) \cong T$ and $(P \iff Q) \cong T$
 
 linear algebra
+- replace span(v_1, ..., v_k) with span({v_1, ..., v_k})
 - graphically emphasize that closure under addition and scalar multiplication are the most important vector space axioms
 - finish converting matrices section into setting of linear functions K^n -> K^m
 - finish systems of linear equations section
