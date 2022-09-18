@@ -79,9 +79,10 @@ github readme
 
 deprecated (don't actually implement this)
 - introduce the notion of preferred letters.
-    - Sbar := the preferred letter of S 
-    - S_T := S(Sbar)(T)
-  - introduce the notion of conflating S with S_Sbar
-  - note: may seem weird, but if gbar = f and fbar = x, then (dg/df)bar = x. in particular this means dg/df df/dx makes sense, since dg/df and df/dx both have a preferred letter of x. 
-  - now chain rule can be stated in the way we want: if gbar = f and fbar = x then dg/dx = dg/df df/dx
-  - define "f is a function of x" <=> fbar = x
+    - $\bar{S}$ := the preferred letter of S
+    - define " $f$ is a function of $x$ " <=> $\bar{f} = x$. later, define " $f$ is a function of $x_1, ..., x_n$ " <=> similar notion 
+    - $S_T$ := function mapping quantities represented by $T$ to quantities represented by $S$
+  - introduce the notion of conflating $S$ with $\bar{S}$
+  - note: may seem weird, but if $\bar{g} = f$ and $\bar{f} = x$, then $\bar{\frac{dg}{df}} = x$. in particular this means $\frac{dg}{df} \frac{df}{dx}$ makes sense, since $\frac{dg}{df}$ and $\frac{df}{dx}$ both have a preferred letter of x. 
+  - now chain rule can be stated in the way we want: if $\bar{g} = f$ and $\bar{f} = x$ then $\frac{dg}{dx} = \frac{dg}{df} \frac{df}{dx}$
+  
