@@ -21,7 +21,7 @@ calc
   - remark that $f(g)$ is better notation than $f \circ g$ for calculus purposes
   - state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
   - The following shouldn't need to be a definition, but no one actually interprets the notation $\frac{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
-  - will use analogous definition for multivariable calculus. define $\frac{pd f(x_1, ..., g(x_i), ..., x_n)}{\pd g(x_i)} := f_i(x_1, ..., g(x_i), ..., x_n)$, where $f_i$ denotes the partial derivative of $f$ in the $i$th argument
+  - Seems that in the general context of a function $f$ of $n$ real arguments, each of the arguments is associated with a symbol- say the $i$th argument is associated with $x_i$. This association makes notation like $\frac{\partial f}{\partial x_i}$ unambiguous. In formalizing this convention could be useful to use the operator $\pd_i$ to denote $i$th partial derivative.
   - now chain rule can be stated in a slightly better way (one way in terms of functions eval'ed on inputs and one way in terms of functions)
 - int f(g) dg/dx = int f dg has two uses. when read left to right it formalizes the notion of canceling differentials. when read right to left it provides a way to change variables.
   - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand"
