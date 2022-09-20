@@ -78,6 +78,9 @@ github readme
 
   - if the center c of a frame is not accelerating, c'' = 0, then the force mx'' on an object in the frame includes  "fictitious" contribution. this proves that "laws of physics in all nonaccelerating (i.e. inertial) frames are the same". no need to take as axiom
 
+add a github section about "beatufiul interpretations"
+- function-input duality. Let $X$ and $Y$ be sets and let $X^\*$ denote the set of functions from $X$ to $Y$. Then when for $x \in X$ and $f \in X^\*$ we consider the expression $f(x)$, we can of course consider $f$ to be a function, but we can also consider $x$ to be a function that acts on $f$; formally, we mean that for every $x \in X$ there is a function $F_x \in X^{\*\*}$ that acts on $f \in X^\*$ by $F_x(f) = f(x)$.
+
 deprecated (don't actually implement this)
 - introduce the notion of preferred letters.
     - $\bar{S}$ := the preferred letter of S
