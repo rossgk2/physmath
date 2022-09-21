@@ -80,8 +80,10 @@ github readme
 
 add a github section about "beatufiul interpretations"
 - algebra lets us see shifting a line left is the same as shifting it down
-- in physics, interpreting velocity to be a function of position helps complete the derivation for the kinetic eneryg formula
 - function-input duality. Let $X$ and $Y$ be sets and let $X^\*$ denote the set of functions from $X$ to $Y$. Then when for $x \in X$ and $f \in X^\*$ we consider the expression $f(x)$, we can of course consider $f$ to be a function, but we can also consider $x$ to be a function that acts on $f$; formally, we mean that for every $x \in X$ there is a function $F_x \in X^{\*\*}$ that acts on $f \in X^\*$ by $F_x(f) = f(x)$.  
+- in physics, interpreting velocity to be a function of position helps complete the derivation for the kinetic eneryg formula
+- interpreting functions as derivatives and vice-versa to leverage the chain rule
+
 
 deprecated (don't actually implement this)
 - introduce the notion of preferred letters.
