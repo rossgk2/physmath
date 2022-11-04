@@ -52,13 +52,13 @@ If you combine the above three core tenets, you realize that satisfyingly explai
 
 ### The dreaded "efficency" pedagogy
 
-Another mathematical philosophy to be desperately avoided, even worse than "conjecture and prove", is what I call the "efficiency" pedagogy. The "efficiency" pedagogy goes as follows. Suppose we are describing a mathematical object, and that we know that the object has a natural intuitive property N exactly whenever the object also has a wacky and esoteric property W.
+Another mathematical philosophy to be desperately avoided, even worse than "conjecture and prove", is what I call the "efficiency" pedagogy. The "efficiency" pedagogy goes as follows. Suppose we are describing a mathematical object, and that we know that the object has a natural intuitive property $N$ exactly whenever the object also has a wacky and esoteric property $W$.
 
-If we are presenting this material, what we *should* do is first define property N, since it is more intuitive, and then prove that property W follows from property N, *even if* it is easier to prove that property N follows from property W. It doesn't make sense to start with W- no one would dream up W in the first place without discovering N first!
+If we are presenting this material, what we *should* do is first define property $N$, since it is more intuitive, and then prove that property $W$ follows from property $N$, *even if* it is easier to prove that property $N$ follows from property $W$. It doesn't make sense to start with $W$- no one would dream up $W$ in the first place without discovering $N$ first!
 
-The "efficiency" pedagogy doesn't care about this. If it is easier to prove that N follows from W, then the "efficiency" pedagogy will first state W and then prove N.
+The "efficiency" pedagogy doesn't care about this. If it is easier to prove that $N$ follows from $W$, then the "efficiency" pedagogy will first state $W$ and then prove $N$.
 
-If you think about it, the "efficency" pedagogy isn't actually that efficent. Sure, it may take less logic to prove W => N than it does to prove N => W, but, if one is to truly *understand* the material, they will eventually have to prove N => W. It is better to start with N => W, as it eliminates unnecessary confusion and elucidates what is really going on.
+If you think about it, the "efficency" pedagogy isn't actually that efficent. Sure, it may take less logic to prove $W \implies N$ than it does to prove $N \implies W$, but, if one is to truly *understand* the material, they will eventually have to prove $N \implies W$. It is better to start with $N \implies W$, as it eliminates unnecessary confusion and elucidates what is really going on.
 
 A prime example of the "efficiency" pedagogy is the typical way in which $e$, $e^x$, and $\ln(x)$ are defined. One common approach in to define $\ln(x)$ as $\ln(x) := \int_0^x \frac{1}{x} dx$, then define $x \mapsto e^x$ to be the inverse function to $\ln$, and then define $e := e^1$. This approach establishes all relevant facts about $x \mapsto e^x$ and $\ln$, including the fact $\frac{d}{dx} e^x = e^x$, but it does not give an intuition for why the facts are true. All of the other common approaches have this same issue. (The one pedagogically correct approach is to notice that $\frac{d}{dx} b^x = c_b b^x$ for some constant $c_b$, and then define $e$ to be the $b$ for which $c_b = 1$. Thus $\frac{d}{dx} e^x = e^x$. We also define $\ln$ to be the inverse function to $x \mapsto e^x$. You can the details in my calculus textbook).
 
