@@ -60,7 +60,7 @@ The "efficiency" pedagogy doesn't care about this. If it is easier to prove that
 
 If you think about it, the "efficency" pedagogy isn't actually that efficent. Sure, it may take less logic to prove W => N than it does to prove N => W, but, if one is to truly *understand* the material, they will eventually have to prove N => W. It is better to start with N => W, as it eliminates unnecessary confusion and elucidates what is really going on.
 
-A prime example of the "efficiency" pedagogy is the typical way in which $e$, $e^x$, and $\ln(x)$ are defined. One common approach in to define $\ln(x)$ as $\ln(x) := \int_0^x \frac{1}{x}$, then define $x \mapsto e^x$ to be the inverse function to $\ln$, and then define $e := e^1$. This approach establishes all relevant facts about $x \mapsto e^x$ and $\ln$, including the fact $\frac{d}{dx} e^x = e^x$, but it does not give an intuition for why the facts are true. All of the other common approaches have this same issue. (The one pedagogically correct approach is to notice that $\frac{d}{dx} b^x = c_b b^x$ for some constant $c_b$, and then define $e$ to be the $b$ for which $c_b = 1$. Thus $\frac{d}{dx} e^x = e^x$. We also define $\ln$ to be the inverse function to $x \mapsto e^x$. You can the details in my calculus textbook).
+A prime example of the "efficiency" pedagogy is the typical way in which $e$, $e^x$, and $\ln(x)$ are defined. One common approach in to define $\ln(x)$ as $\ln(x) := \int_0^x \frac{1}{x} dx$, then define $x \mapsto e^x$ to be the inverse function to $\ln$, and then define $e := e^1$. This approach establishes all relevant facts about $x \mapsto e^x$ and $\ln$, including the fact $\frac{d}{dx} e^x = e^x$, but it does not give an intuition for why the facts are true. All of the other common approaches have this same issue. (The one pedagogically correct approach is to notice that $\frac{d}{dx} b^x = c_b b^x$ for some constant $c_b$, and then define $e$ to be the $b$ for which $c_b = 1$. Thus $\frac{d}{dx} e^x = e^x$. We also define $\ln$ to be the inverse function to $x \mapsto e^x$. You can the details in my calculus textbook).
 
 ## Particular sins of traditional math
 
@@ -77,7 +77,7 @@ Here's a list of sins that traditional math commits, grouped by subject (a good 
 
 **Calculus**
 - Stating the chain rule by using the vague notion of differentiation with respect to "$u = g(x)$", rather than defining $\frac{df}{dg} := f' \circ g$ and stating the chain rule as $\frac{d(f \circ g)}{dx} = \frac{df}{dg} \frac{dg}{dx}.
-- Defining $e$ and the natural logarithm by "jumping to the conclusion" and skipping all relevant motivation. (Typically, $\ln$ will defined to be a definite integral of $x \mapsto \frac{1}{x}$, and $e$ will either be defined to be a limit, or to be the result of a convergent series, or to be $\ln^{-1}(1)$).
+- Defining $e$ and the natural logarithm by "jumping to the conclusion" and skipping all relevant motivation. (Typically, $\ln$ will defined to be $\int_0^x \frac{1}{x} dx$, and and $e$ will either be defined to be $e := \lim_{n \rightarrow \infty} (1 + \frac{1}{n})^n$, or to be $e := \sum_{n = 0}^{\infty} \frac{x^n}{n!}$, or to be $e := \ln^{-1}(1)$).
 - Proving that FTC 1 $\implies$ FTC 2 rather than FTC 2 $\implies$ FTC 1. (FTC 2, the second fundamental theorem of calculus, is more intuitive than FTC 1, the first fundamental theorem of calculus).
 - Not explaining why "canceling differentials" works.
 -- Presenting the change of variables formula for integrals to be a chance discovery instead of a natural mirroring of the chain rule.
