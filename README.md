@@ -86,7 +86,7 @@ Here's a list of sins that traditional math commits, grouped by subject (a good 
 - Presenting the correspondence between linear transformations and matrices as a coincidence.
 - Not explaining why the following two definitions of the dot product are equivalent: (1) $\mathbf{v} \cdot \mathbf{w} := ||\mathbf{v}|| ||\mathbf{w}|| \cos(\theta)$ and (2) $\mathbf{v} \cdot \mathbf{w} := v_1 w_1 + ... + v_n w_n$. When traditional math *does* explain, it uses the unintuitive law of cosines to do so.
 - Insisting that you have to make weird shapes with your hand to apply the right hand rule rather than explaining the concept of orientation, and how orientation (and therefore the direction of the cross product) flips when the counterclockwise angle from one vector to another exceeds $\pi$.
-- Not making it clear that the right hand rule is a *convention* that is tied to the convention of depicting coordinate systems in the "right handed way" ($\hat{\mathbf{e}}\_2 = \hat{\mathbf{y}}$ as into the page, $\hat{\mathbf{e}}\_2 = \hat{\mathbf{y}}$ as horizontal, $\hat{\mathbf{e}}\_3 = \hat{\mathbf{z}}$ as up).
+- Not making it clear that the right hand rule is a *convention* that is tied to the convention of depicting coordinate systems in the "right handed way"  ($\hat{\mathbf{e}}\_1 = \hat{\mathbf{x}}$ as into the page, $\hat{\mathbf{e}}\_2 = \hat{\mathbf{y}}$ as horizontal, $\hat{\mathbf{e}}\_3 = \hat{\mathbf{z}}$ as up).
 
 **Tensors**
 - Not explaining that the implication operator only takes on its English-langauge meaning when you use it inside a "for all" quantifier.
