@@ -72,7 +72,7 @@ Here's a list of sins that traditional math commits, grouped by subject (a good 
 - Not stopping to pause at the fact that $\pi$ being a constant, and not a function of a circle's radius, is actually kinda cool.
 - Not explaning why definitions involving exponents such as $b^{-x} := \frac{1}{b^x}$ are natural.
 - Glossing over the fact that the $n$th root of $x$ is *different notation* for $x^{\frac{1}{n}}$, and instead insinuating that one could somehow prove that the $n$th root of $x$ is equal to $x^{\frac{1}{n}}$. (Both denote the evaluation of the inverse function of $x \mapsto x^n$ at $x$).
-- Not giving memorable intuition for the facts $\log_b(x y) = \log_b(x) + \log_b(y)$ and $\log_b(x^y) = y log(x)$. At best, the traditional approach relies on the proof that begins by applying $\log_b$ to both sides of $b^{x + y} = b^x + b^y$. (That's the best *proof* there is, but it isn't the best intution).
+- Not giving memorable intuition for the facts $\log_b(x y) = \log_b(x) + \log_b(y)$ and $\log_b(x^y) = y \log_b(x)$. At best, the traditional approach relies on the proof that begins by applying $\log_b$ to both sides of $b^{x + y} = b^x + b^y$. (That's the best *proof* there is, but it isn't the best intution).
 - Making students memorize rules that describe the end behavior of rational functions rather than emphasizing the practice of deriving these rules with limits at infinity. 
 
 **Calculus**
