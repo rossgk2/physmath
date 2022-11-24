@@ -48,6 +48,7 @@ linear algebra
 - finish systems of linear equations section
 
 tensors
+- replace quotes "" with parentheses () when enclosing statements
 - make sure that indexing convention is followed after def of covariance and contravariance (just moved it to dual spaces section)
 - mention the term "staggered indices" after defn of coordinates of tensor
 - move proof of \[\vv\]\_E^i = \phi^{\ee_i}(\vv) and (\[\phi\]\_{E^\*})\_i = \phi(\ee_i) to after derivation of induced dual basis
