@@ -48,8 +48,8 @@ linear algebra
 - finish systems of linear equations section
 
 tensors
-- introduce staggered indices in defn of coordinates of a (p, q) tensor
-- replace $a^i_j$ and $ij$ with $^i_j$, $^ij$, and $\_ij$ after introduction of staggered indices
+- make sure that indexing convention is followed after def of covariance and contravariance (just moved it to dual spaces section)
+- mention the term "staggered indices" after defn of coordinates of tensor
 - move proof of \[\vv\]\_E^i = \phi^{\ee_i}(\vv) and (\[\phi\]\_{E^\*})\_i = \phi(\ee_i) to after derivation of induced dual basis
 - CTRL-F "alternization" and replace with "antisymmetrization" when necessary; the alt operator should probably be renamed to be asym
 - if dim(V) = n, can the Hodge dual \*:Lambda^k V -> Lambda^(n - k) V be deduced from \*:Lambda^{n - 1} V -> V?
