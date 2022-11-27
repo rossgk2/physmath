@@ -48,6 +48,7 @@ linear algebra
 - finish systems of linear equations section
 
 tensors
+- condense second pushforward and pullback section; then take results involving pushforwards/pullbacks out of determinant section and merge all pushforward/pullback stuff to one section that goes at the end of the exterior powers chapter
 - Hodge dual edits   
   - There really is no good motivation for coming up with defn of Hodge dual on $\omega = \mathbf{u}\_{i_1} \wedge ... \wedge \mathbf{u}\_{i_k}$, since the factor $\langle \omega, \omega \rangle$ has to be included. And that factor must be there. (Somehow earlier I thought it didn't).
   - Use instead the derivation at https://www.homotopico.com/page2/.
