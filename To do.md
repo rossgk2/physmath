@@ -48,6 +48,9 @@ linear algebra
 - finish systems of linear equations section
 
 tensors
+- Hodge dual edits   
+  - There really is no good motivation for coming up with defn of Hodge dual on $\omega = \mathbf{u}\_{i_1} \wedge ... \wedge \mathbf{u}\_{i_k}$, since the factor $\langle \omega, \omega \rangle$ has to be included. And that factor must be there. (Somehow earlier I thought it didn't).
+  - Use instead the derivation at https://www.homotopico.com/page2/.
 - replace quotes "" with parentheses () when enclosing statements
 - make sure that indexing convention is followed after def of covariance and contravariance (just moved it to dual spaces section)
 - mention the term "staggered indices" after defn of coordinates of tensor
