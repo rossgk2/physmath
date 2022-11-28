@@ -50,8 +50,7 @@ linear algebra
 tensors
 - condense second pushforward and pullback section; then take results involving pushforwards/pullbacks out of determinant section and merge all pushforward/pullback stuff to one section that goes at the end of the exterior powers chapter
 - Hodge dual edits   
-  - There really is no good motivation for coming up with defn of Hodge dual on $\omega = \mathbf{u}\_{i_1} \wedge ... \wedge \mathbf{u}\_{i_k}$, since the factor $\langle \omega, \omega \rangle$ has to be included. And that factor must be there. (Somehow earlier I thought it didn't).
-  - Use instead the derivation at https://www.homotopico.com/page2/.
+  - To derive Hodge dual $\perp$, define $\frac{\perp \omega}{h(\omega, \omega)}$ on a $k$-wedge $\omega$ of orthonormal basis vectors and extend with seeming-multilinearity and alternatingness. Then determine coordinates of $\frac{\perp \eta}{h(\eta, \eta)}$ relative to this basis, and compute $\omega \wedge (\perp \eta)$. Result should be $\text{vol}$.
 - replace quotes "" with parentheses () when enclosing statements
 - make sure that indexing convention is followed after def of covariance and contravariance (just moved it to dual spaces section)
 - mention the term "staggered indices" after defn of coordinates of tensor
