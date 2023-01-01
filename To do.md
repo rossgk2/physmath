@@ -51,7 +51,7 @@ Linear algebra
 - finish systems of linear equations section
 
 Dual spaces
-- instead of defining dual basis to be maps represented by $\mathfrak{e}\_1^\top, …, \mathfrak{e}\_n^\top$, first define unnatural isomorphism $\mathbf{F}:K^n \rightarrow K^{1 \times n}$ sending $\mathbf{v} \mapsto \mathbf{v}^\top$ and then define dual basis to be $\mathbf{F}(\mathbf{e}\_1), …, \mathbf{F}(\mathbf{e}\_n)$.
+- instead of defining dual basis to be maps represented by $\mathfrak{e}\_1^\top, …, \mathfrak{e}\_n^\top$, first define unnatural isomorphism $\mathbf{F}:K^n \rightarrow K^{1 \times n}$ sending $\mathbf{v} \mapsto \mathbf{v}^\top$ and then define dual basis to be the maps represented by $\mathbf{F}(\mathfrak{e}\_1), …, \mathbf{F}(\mathfrak{e}\_n)$.
 - add remark about using the unnatural isomorphism $\mathbf{F}$ to think about elements of dual space as (being represented by) row vectors
 
 Tensors
