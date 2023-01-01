@@ -1,10 +1,10 @@
-advice for learning math
+Advice for learning math
 - when doing calculations, don't try to do too much in your head. write out each step on paper. this will help you make less mistakes. for example, something I always do is take an extra step to distribute negative signs when expanding polynomial expressions such as $x^2 + 3 - (x - 3)^2$. I would write $x^2 + 3 - (x - 3)^2 = x^2 + 3 - (x^2 - 6x + 9) = x^2 + 3 - x^2 + 6x - 9 = 6x - 6$. some people might skip writing out the second to last equation, but I always do it. 
 - Build on your own knowledge. This is most relevant when some later concept requires you to make use of a convention regarding an earlier concept. I advise you to investigate what the later concept would look like if a different convention was the norm. Then choose, or come up with, a convention that you think is most intuitive.
 - I personally learn by organizing information. I read stuff from a textbook, and then reorganize it into a way that I think is more natural (since textbooks often present information in slightly unnatural ways). When reading unsatisfyingly organized information, doing this is a good way to learn.
 - When you're reading something that is satisfyingly organized, I advise learning by writing down the most important definitions and facts you come across as you read. See if you can boil everything important down into a list of bullet points.
 
-precalc
+Precalc
 - possibly add section that summarizes things you learn in algebra
   - notation for multiplication: $\times, \cdot$, and $()$
   - you "solve equations" by doing the same operation to both sides of the equation 
@@ -13,10 +13,9 @@ precalc
 - add remark that " $f = f(x)$ " is bad but don't make it more complicated than that
 - add explanation of "FOIL" and remark that you shouldn't rely on a mnemonic such as "FOIL"
 
-calc
+Calculus
 
 - attribute prime notation to Lagrange, not Newton 
-
 - explain Leibniz notation by doing these things in some order:
   - remark that $f(g)$ is better notation than $f \circ g$ for calculus purposes
   - state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
@@ -38,10 +37,10 @@ calc
 - definite integrals with change of variables theorem- bounds change
 - phi linear function rmk. add that "linear elts are a gen of vectors"
 
-logic
+Logic
 - $P \implies Q$ and $P \iff Q$ are short for $(P \implies Q) \cong T$ and $(P \iff Q) \cong T$
 
-linear algebra
+Linear algebra
 - Never say "let $E^* = {\phi^{\mathbf{e}\_i}}$ be the induced dual basis to $E$; this is redundant in light of the defn $\phi^{\mathbf{v}} := \mathbf{F}(\mathbf{v})$, where $\mathbf{F}(\mathbf{e}\_i) = \phi^{\mathbf{e}\_i}$ in the motivated intro chapter
 - Edit discussion of vectors at beginning of chapter to discuss the following... There is circularity on the intuitive level between the notions of "point" and "vector". We can resolve this circularity on a formal level by defining each of "point" and "vector" in more primitive terms. Though, there is a circularity between the intuitive ideas of "point" and "vector" that will always persist.
   - Suppose we attempt to make "vector" the primitive concept on top of which we define "point". We may attempt to define a "point" to be a sum of vectors cooresponding to the directions of the coordinate axes. But a geometric understanding what a "sum" of vectors is requires the notion that adding a vector to a \textit{point} produces another \textit{point} (the sum of vectors $\mathbf{v}\_1 + \mathbf{v}\_2$ is understood as being the \textit{point} that is achieved by the sum $(\mathbf{p} + \mathbf{v}\_1) + \mathbf{v}\_2$r). We see our attempted deinition of "point" relies on the notion of "point", and is thus circular.
@@ -51,7 +50,11 @@ linear algebra
 - finish converting matrices section into setting of linear functions K^n -> K^m
 - finish systems of linear equations section
 
-tensors
+Dual spaces
+- instead of defining dual basis to be maps represented by $\mathfrac{e}\_1^\top, …, \mathfrac{e}\_n^\top$, first define unnatural isomorphism $\mathbf{F}:K^n \rightarrow K^{1 \times n}$ sending $\mathbf{v} \mapsto \mathbf{v}^\top$ and then define dual basis to be $\mathbf{F}(\mathbf{e}\_1), …, \mathbf{F}(\mathbf{e}\_n)$.
+- add remark about using the unnatural isomorphism $\mathbf{F}$ to think about elements of dual space as (being represented by) row vectors
+
+Tensors
 - condense second pushforward and pullback section; then take results involving pushforwards/pullbacks out of determinant section and merge all pushforward/pullback stuff to one section that goes at the end of the exterior powers chapter
 - Hodge dual edits   
   - To derive Hodge dual $\perp$, define $\frac{\perp \omega}{h(\omega, \omega)}$ on a $k$-wedge $\omega$ of orthonormal basis vectors and extend with seeming-multilinearity and alternatingness. Then determine coordinates of $\frac{\perp \eta}{h(\eta, \eta)}$ relative to this basis, and compute $\omega \wedge (\perp \eta)$. Result should be $\text{vol}$.
