@@ -19,7 +19,7 @@ Calculus
 - explain Leibniz notation by doing these things in some order:
   - remark that $f(g)$ is better notation than $f \circ g$ for calculus purposes
   - state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
-  - The following shouldn't need to be a definition, but no one actually interprets the notation $\frac{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
+  - The following shouldn't need to be a definition, but no one actually interprets the notation $\{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
   - Should formalize the notion of "preferred letters" for single variable functions because this convention is used in the general context of a function $f$ accepting $n$ real numbers. (For such a multivariable function $f$, we often associate the $i$th argument with the symbol $x_i$. This association makes notation like $\frac{\partial f}{\partial x_i}$ unambiguous. In formalizing this convention it could be useful to use the operator $\partial_i$ to denote the taking of the $i$th partial derivative.)
   - now chain rule can be stated in a slightly better way (one way in terms of functions eval'ed on inputs and one way in terms of functions)
 - int f(g) dg/dx = int f dg has two uses. when read left to right it formalizes the notion of canceling differentials. when read right to left it provides a way to change variables.
@@ -51,7 +51,7 @@ Linear algebra
 - finish systems of linear equations section
 
 Dual spaces
-- instead of defining dual basis to be maps represented by $\mathfrac{e}\_1^\top, …, \mathfrac{e}\_n^\top$, first define unnatural isomorphism $\mathbf{F}:K^n \rightarrow K^{1 \times n}$ sending $\mathbf{v} \mapsto \mathbf{v}^\top$ and then define dual basis to be $\mathbf{F}(\mathbf{e}\_1), …, \mathbf{F}(\mathbf{e}\_n)$.
+- instead of defining dual basis to be maps represented by $\mathfrak{e}\_1^\top, …, \mathfrak{e}\_n^\top$, first define unnatural isomorphism $\mathbf{F}:K^n \rightarrow K^{1 \times n}$ sending $\mathbf{v} \mapsto \mathbf{v}^\top$ and then define dual basis to be $\mathbf{F}(\mathbf{e}\_1), …, \mathbf{F}(\mathbf{e}\_n)$.
 - add remark about using the unnatural isomorphism $\mathbf{F}$ to think about elements of dual space as (being represented by) row vectors
 
 Tensors
