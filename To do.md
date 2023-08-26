@@ -55,6 +55,7 @@ Recent physics and tensor stuff (8/25/23)
   - Add physics versions of manifold arguments to book
     - $\{\partial_i\}\_{i = 1}^n$ is a basis for $T\_{\mathbf{p}}(M)$: show $\frac{d}{dt} = \frac{dx^\mu}{dt} \partial_\mu$, where $x^\mu = (\mathbf{x} \circ \mathbf{r})^\mu$, where $\mathbf{r}:M \rightarrow \mathbb{R}$ is a curve on $M$ and $t$ is thought of as parameterizing $\mathbf{r}$
     - Change of basis for tangent vectors from fact that unprimed and primed coordinates represent same vector (this proof supresses the map that changes coordinates)
+    - add a remark about the abuse of notation in which $dx^{\mu'}$ is written rather than $dx'^\mu$.
 - read more about GR
 - review D'Alembert's principle (and maybe read about analytical mechanics, which focuses on scalar quantities), 
 - review the Euler-Lagrange equation and Lagrangian mechanics
