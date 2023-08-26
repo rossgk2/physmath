@@ -56,16 +56,16 @@ Dual spaces
 
 Tensors
 - condense second pushforward and pullback section; then take results involving pushforwards/pullbacks out of determinant section and merge all pushforward/pullback stuff to one section that goes at the end of the exterior powers chapter
-- Hodge dual edits   
+- Hodge dual edits
   - To derive Hodge dual $\perp$, define $\frac{\perp \omega}{h(\omega, \omega)}$ on a $k$-wedge $\omega$ of orthonormal basis vectors and extend with seeming-multilinearity and alternatingness. Then determine coordinates of $\frac{\perp \eta}{h(\eta, \eta)}$ relative to this basis, and compute $\omega \wedge (\perp \eta)$. Result should be $\text{vol}$.
+  -  if $\dim(V) = n$, can the Hodge dual $\*:\Lambda^k(V) \rightarrow \Lambda^{n - k}(V)$ be deduced from $\*:\Lambda^{n - 1}(V) \rightarrow (V)$?
+  -  Investigate the relationship between interior multiplication and the Hodge dual.
 - replace quotes "" with parentheses () when enclosing statements
 - make sure that indexing convention is followed after def of covariance and contravariance (just moved it to dual spaces section)
 - mention the term "staggered indices" after defn of coordinates of tensor
 - move proof of \[\vv\]\_E^i = \phi^{\ee_i}(\vv) and (\[\phi\]\_{E^\*})\_i = \phi(\ee_i) to after derivation of induced dual basis
 - CTRL-F "alternization" and replace with "antisymmetrization" when necessary; the alt operator should probably be renamed to be asym
-- if dim(V) = n, can the Hodge dual \*:Lambda^k V -> Lambda^(n - k) V be deduced from \*:Lambda^{n - 1} V -> V?
-- Investigate the relationship between interior multiplication and the Hodge dual.
-- Is it best to think of \totimes, \twedge as induced, or as special cases of \otimes, \wedge for different spaces? (by "special cases", I refer to fact that \totimes and \twedge are the versions of \otimes and \wedge on certain spaces, specifically, the versions that satisfy (phi^1 \otimes ... \otimes \phi^n)(e_1, ..., e_n) = prod_i phi^i(e_i), and a sim. characterizing property)
+- Is it best to think of $\widetilde{\otimes}$, $\widetilde{\wedge}$ as induced, or as special cases of $\otimes$, $\wedge$ for different spaces? (by "special cases", I refer to fact that $\widetilde{\otimes}$ and $\widetilde{\wedge}$ are the versions of $\otimes$ and $\wedge$ on certain spaces, specifically, the versions that satisfy $(\phi^1 \otimes ... \otimes \phi^n)(\mathbf{e}\_1, ..., \mathbf{e}\_n) = \prod_i \phi^i(\mathbf{e}\_i)$, and a sim. characterizing property)
 - Bases used for orientation on a vector space with metric tensor should often be assumed to be orthonormal, because we can always use Gram-Schmidt to get at an underlying orthonormal basis
 - A choice of basis on a vector space does in some sense induce a dual basis, maybe? A choice of basis induces the "dot product" on the vector space, and that has an associated musical isomorphism. (I suspect that the "dot product" may only be a metric tensor when the basis is orthonormal, though...)
 - After the "orthonormal <=> self-dual" remark, use the notation $\huu_1, ..., \huu_n$ for bases when speaking of a induced dual basis rather than the notation $\ee_1, ..., \ee_n$?
