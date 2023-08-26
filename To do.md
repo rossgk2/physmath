@@ -25,7 +25,7 @@ Calculus
 - swapping of limit variable theorem. if $f(x) \rightarrow L$ as $x \righarrow p$ then $\lim\_{x \rightarrow p} g(f(x)) = \lim\_{f \rightarrow L} g(f)$. that is, if $\lim\_{x \rightarrow p} f(x) = L$ then $\lim\_{x \rightarrow p} g(f(x)) = \lim\_{f \rightarrow L} g(f)$.
   - might even be used to prove chain rule
 - "you can indeed take the derivative of a derivative"; velocity, acceleration, jerk
-- add derivative of polynomials after linearity of deriv: polynomials are important because x'' = const implies x' and x are polynomaials. d/dx:P_n -> P\_{n - 1} and int:P_n -> P\_{n + 1} 
+- add derivative of polynomials after linearity of deriv: polynomials are important because $f'' = \text{const}$ implies $f'$ and $f$ are polynomaials. $\frac{d}{dx}:P\_n \rightarrow P\_{n - 1}$ and $\int:P\_n \rightarrow P\_{n + 1}$. 
 - change deriv of inverse deriv rule to use chain rule
 - definite integrals with change of variables theorem- bounds change
 - phi linear function rmk. add that "linear elts are a gen of vectors"
