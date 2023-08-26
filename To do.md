@@ -50,12 +50,18 @@ Dual spaces
 - add remark about using the unnatural isomorphism $\mathbf{F}$ to think about elements of dual space as (being represented by) row vectors
 
 Recent physics and tensor stuff (8/25/23)
+- technical stuff
+  - fix the theorem "Change of coordinates for tangent vectors in terms of basis vectors of $T\_{\mathbf{p}}(M)$" so that $\mathbf{x}(\mathbf{p})$ appears instead of $\mathbf{p}$ where necessary, and so that a result for general tangent vectors- not just basis tangent vectors- is stated
+  - Add physics versions of manifold arguments to book
+    - $\{\partial_i\}\_{i = 1}^n$ is a basis for $T\_{\mathbf{p}}(M)$: show $\frac{d}{dt} = \frac{dx^\mu}{dt} \partial_\mu$, where $x^\mu = (\mathbf{x} \circ \mathbf{r})^\mu$, where $\mathbf{r}:M \rightarrow \mathbb{R}$ is a curve on $M$ and $t$ is thought of as parameterizing $\mathbf{r}$
+    - Change of basis for tangent vectors from fact that unprimed and primed coordinates represent same vector (this proof supresses the map that changes coordinates)
 - read more about GR
 - review D'Alembert's principle (and maybe read about analytical mechanics, which focuses on scalar quantities), 
 - review the Euler-Lagrange equation and Lagrangian mechanics
 - read the Wikipedia article that derives SR's four-momentum by using the Euler-Lagrange equation; then review four-momentum stuff, including $E = mc^2$!
 - review orientation of manifolds
 - review Stokes' theorem
+- How does thinking about the differential as a pushforward relate to changing coordinates?
 - finish understanding coordinate representation of Hodge dual
   - this will involve reviewing identities involving Levi-Civita symbol and generalized Kronecker delta
 - read about the covariant derivative from Carroll's GR text
