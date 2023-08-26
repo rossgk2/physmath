@@ -46,6 +46,18 @@ Dual spaces
 - instead of defining dual basis to be maps represented by $\mathfrak{e}\_1^\top, …, \mathfrak{e}\_n^\top$, first define unnatural isomorphism $\mathbf{F}:K^n \rightarrow K^{1 \times n}$ sending $\mathbf{v} \mapsto \mathbf{v}^\top$ and then define dual basis to be the maps represented by $\mathbf{F}(\mathfrak{e}\_1), …, \mathbf{F}(\mathfrak{e}\_n)$.
 - add remark about using the unnatural isomorphism $\mathbf{F}$ to think about elements of dual space as (being represented by) row vectors
 
+Recent physics and tensor stuff (8/25/23)
+- read more about GR
+- review D'Alembert's principle (and maybe read about analytical mechanics, which focuses on scalar quantities), 
+- review the Euler-Lagrange equation and Lagrangian mechanics
+- read the Wikipedia article that derives SR's four-momentum by using the Euler-Lagrange equation; then review four-momentum stuff, including $E = mc^2$!
+- review orientation of manifolds
+- review Stokes' theorem
+- finish understanding coordinate representation of Hodge dual
+  - this will involve reviewing identities involving Levi-Civita symbol and generalized Kronecker delta
+- read about the covariant derivative from Carroll's GR text
+- do a concrete example of computing $T_{\mathbf{p}}(M)$ for $M$ that's the image of a smooth function $\mathbb{R}^2 \rightarrow \mathbb{R}$
+
 Tensors
 - condense second pushforward and pullback section; then take results involving pushforwards/pullbacks out of determinant section and merge all pushforward/pullback stuff to one section that goes at the end of the exterior powers chapter
 - Hodge dual edits
