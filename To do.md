@@ -17,19 +17,12 @@ Calculus
 
 - attribute prime notation to Lagrange, not Newton 
 - explain Leibniz notation by doing these things in some order:
-  - remark that $f(g)$ is better notation than $f \circ g$ for calculus purposes
-  - state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
-  - The following shouldn't need to be a definition, but no one actually interprets the notation $\{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
-  - Should formalize the notion of "preferred letters" for single variable functions because this convention is used in the general context of a function $f$ accepting $n$ real numbers. (For such a multivariable function $f$, we often associate the $i$th argument with the symbol $x_i$. This association makes notation like $\frac{\partial f}{\partial x_i}$ unambiguous. In formalizing this convention it could be useful to use the operator $\partial_i$ to denote the taking of the $i$th partial derivative.)
-  - now chain rule can be stated in a slightly better way (one way in terms of functions eval'ed on inputs and one way in terms of functions)
-- int f(g) dg/dx = int f dg has two uses. when read left to right it formalizes the notion of canceling differentials. when read right to left it provides a way to change variables.
-  - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand"
-    -- explain how variables are actually changed from g to x. 
-- edit entire calc book to incorporate "improved physicist's Leibniz notation"; i.e. Leibniz notation that makes use of the notion of preferred letters and functions such as S_T
-  - add note that "S = T" means "sym(S) = sym(T)"
-  - will still need to include defn. df/dx := f' or f(x) where the choice is determined by context 
-
-- swapping of limit variable theorem. if f(x) - > L as x -> p then lim_{x -> p} g(f(x)) = lim\_{f -> L} g(f). that is, if lim\_{x -> p} f(x) = L then if lim\_{x -> p} g(f(x)) = lim\_{f -> L} g(f)
+  - maybe remark that $f(g)$ is better notation than $f \circ g$ for calculus purpose. then could state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
+  - The following shouldn't need to be a definition, but no one actually interprets the notation $\frac{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
+  - The notation $\frac{df}{dg} := f' \circ g$ is appealing because it allows for a nice statement of the chain rule as $\frac{d(g \circ f)}{dx} = \frac{dg}{df} \frac{df}{dx}$, but it is also problematic because since $(f^{-1})' = \frac{1}{df/df^{-1}}$ involves the notation $\frac{df}{df^{-1}}$, which does not behave as expected: we have $\frac{1}{df^{-1}/df} = \frac{1}{(f^{-1})' \circ f} \neq f' \circ f^{-1} = \frac{df}{df^{-1}}$. Interpreting $\frac{df}{df^{-1}}$ in a sensible way requires a extra layer of interpetation that's probably not worth it.
+- $\int f(g) \frac{dg}{dx} = \int f \text{ } dg$ has two uses. When read left to right it formalizes the notion of canceling differentials. When read right to left it provides a way to change variables.
+  - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand" 
+- swapping of limit variable theorem. if $f(x) \rightarrow L$ as $x \righarrow p$ then $\lim\_{x \rightarrow p} g(f(x)) = \lim\_{f \rightarrow L} g(f)$. that is, if $\lim\_{x \rightarrow p} f(x) = L$ then $\lim\_{x \rightarrow p} g(f(x)) = \lim\_{f \rightarrow L} g(f)$.
   - might even be used to prove chain rule
 - "you can indeed take the derivative of a derivative"; velocity, acceleration, jerk
 - add derivative of polynomials after linearity of deriv: polynomials are important because x'' = const implies x' and x are polynomaials. d/dx:P_n -> P\_{n - 1} and int:P_n -> P\_{n + 1} 
