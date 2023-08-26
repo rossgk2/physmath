@@ -28,7 +28,6 @@ Calculus
 - add derivative of polynomials after linearity of deriv: polynomials are important because $f'' = \text{const}$ implies $f'$ and $f$ are polynomaials. $\frac{d}{dx}:P\_n \rightarrow P\_{n - 1}$ and $\int:P\_n \rightarrow P\_{n + 1}$. 
 - change deriv of inverse deriv rule to use chain rule
 - definite integrals with change of variables theorem- bounds change
-- phi linear function rmk. add that "linear elts are a gen of vectors"
 
 Logic
 - $P \implies Q$ and $P \iff Q$ are short for $(P \implies Q) \cong T$ and $(P \iff Q) \cong T$
