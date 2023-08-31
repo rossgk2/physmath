@@ -17,7 +17,7 @@ Calculus
 
 - attribute prime notation to Lagrange, not Newton 
 - explain Leibniz notation by doing these things in some order:
-  - maybe remark that $f(g)$ is better notation than $f \circ g$ for calculus purpose. then could state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
+  - maybe remark that $f(g)$ is better notation than $f \circ g$ for calculus purposes. then could state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
   - The following shouldn't need to be a definition, but no one actually interprets the notation $\frac{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
   - The notation $\frac{df}{dg} := f' \circ g$ is appealing because it allows for a nice statement of the chain rule as $\frac{d(g \circ f)}{dx} = \frac{dg}{df} \frac{df}{dx}$, but it is also problematic because since $(f^{-1})' = \frac{1}{df/df^{-1}}$ involves the notation $\frac{df}{df^{-1}}$, which does not behave as expected: we have $\frac{1}{df^{-1}/df} = \frac{1}{(f^{-1})' \circ f} \neq f' \circ f^{-1} = \frac{df}{df^{-1}}$. Interpreting $\frac{df}{df^{-1}}$ in a sensible way requires a extra layer of interpetation that's probably not worth it.
 - $\int f(g) \frac{dg}{dx} = \int f \text{ } dg$ has two uses. When read left to right it formalizes the notion of canceling differentials. When read right to left it provides a way to change variables.
@@ -50,6 +50,9 @@ Dual spaces
 - add remark about using the unnatural isomorphism $\mathbf{F}$ to think about elements of dual space as (being represented by) row vectors
 
 Recent physics and tensor stuff (8/25/23)
+- $\frac{dy}{dx}$ and Oscar Cunningham's [dividing by a vector](https://oscarcunningham.com/4/dividing-by-a-vector/) blog post
+- electromagnetic induction
+- evidence for electric charges
 - technical stuff
   - fix the theorem "Change of coordinates for tangent vectors in terms of basis vectors of $T\_{\mathbf{p}}(M)$" so that $\mathbf{x}(\mathbf{p})$ appears instead of $\mathbf{p}$ where necessary, and so that a result for general tangent vectors- not just basis tangent vectors- is stated
   - Add physics versions of manifold arguments to book
