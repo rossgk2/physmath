@@ -20,6 +20,7 @@ Calculus
   - maybe remark that $f(g)$ is better notation than $f \circ g$ for calculus purposes. then could state chain rule in prime notation: $\Big(g(f)'\Big)(x) = \Big(g'(f)\Big)(x) f'(x)$
   - The following shouldn't need to be a definition, but no one actually interprets the notation $\frac{df(x)}{dx}$ in this way, so we are forced to do so: $\frac{df(g(x))}{dg(x)} := f'(g(x))$. Also define $\frac{df}{dg} := x \mapsto \frac{df(g(x))}{dg(x)} = f'(g)$.
   - The notation $\frac{df}{dg} := f' \circ g$ is appealing because it allows for a nice statement of the chain rule as $\frac{d(g \circ f)}{dx} = \frac{dg}{df} \frac{df}{dx}$, but it is also problematic because since $(f^{-1})' = \frac{1}{df/df^{-1}}$ involves the notation $\frac{df}{df^{-1}}$, which does not behave as expected: we have $\frac{1}{df^{-1}/df} = \frac{1}{(f^{-1})' \circ f} \neq f' \circ f^{-1} = \frac{df}{df^{-1}}$. Interpreting $\frac{df}{df^{-1}}$ in a sensible way requires a extra layer of interpetation that's probably not worth it.
+  - Whatever notation is used should be consistent with this statement involving partial derivatives: $\frac{\partial (\mathbf{g} \circ \mathbf{f})}{\partial x_i}\Big|\_{\mathbf{p}} = \frac{\partial \mathbf{g}}{\partial f_i}\Big|\_{\mathbf{f}(\mathbf{p})} \frac{\partial f_i}{\partial x_i}\Big|\_{\mathbf{p}}$. It seems that the convention is that the symbol in the denominator does not matter; only the index.
 - $\int f(g) \frac{dg}{dx} = \int f \text{ } dg$ has two uses. When read left to right it formalizes the notion of canceling differentials. When read right to left it provides a way to change variables.
   - rename this theorem to something other than "change of variables theorem"- maybe "canceling differentials in the integrand" 
 - swapping of limit variable theorem. if $f(x) \rightarrow L$ as $x \rightarrow p$ then $\lim\_{x \rightarrow p} g(f(x)) = \lim\_{f \rightarrow L} g(f)$. that is, if $\lim\_{x \rightarrow p} f(x) = L$ then $\lim\_{x \rightarrow p} g(f(x)) = \lim\_{f \rightarrow L} g(f)$.
@@ -50,25 +51,20 @@ Dual spaces
 - add remark about using the unnatural isomorphism $\mathbf{F}$ to think about elements of dual space as (being represented by) row vectors
 
 Recent physics and tensor stuff (8/25/23)
+- fix conflict between my use of Lee's Alt convention and determinant convention (seems like I take the nice part definition of the wedge product from the Alt convention and then derive the determinant formula, but *without* factorials, which shouldn't be possible according to Lee)
 - $\frac{dy}{dx}$ and Oscar Cunningham's [dividing by a vector](https://oscarcunningham.com/4/dividing-by-a-vector/) blog post
 - electromagnetic induction
-- evidence for electric charges
-- technical stuff
-  - fix the theorem "Change of coordinates for tangent vectors in terms of basis vectors of $T\_{\mathbf{p}}(M)$" so that $\mathbf{x}(\mathbf{p})$ appears instead of $\mathbf{p}$ where necessary, and so that a result for general tangent vectors- not just basis tangent vectors- is stated
-  - Add physics versions of manifold arguments to book
-    - $\{\partial_i\}\_{i = 1}^n$ is a basis for $T\_{\mathbf{p}}(M)$: show $\frac{d}{dt} = \frac{dx^\mu}{dt} \partial_\mu$, where $x^\mu = (\mathbf{x} \circ \mathbf{r})^\mu$, where $\mathbf{r}:M \rightarrow \mathbb{R}$ is a curve on $M$ and $t$ is thought of as parameterizing $\mathbf{r}$
-    - Change of basis for tangent vectors from fact that unprimed and primed coordinates represent same vector (this proof supresses the map that changes coordinates)
-    - add a remark about the abuse of notation in which $dx^{\mu'}$ is written rather than $dx'^\mu$. (at least, I think some people do this)
-- read more about GR
-- review D'Alembert's principle (and maybe read about analytical mechanics, which focuses on scalar quantities), 
-- review the Euler-Lagrange equation and Lagrangian mechanics
-- read the Wikipedia article that derives SR's four-momentum by using the Euler-Lagrange equation; then review four-momentum stuff, including $E = mc^2$!
+- use the inverse differential rule to compute the inverse of the gradient of a function $\mathbb{R}^2 \rightarrow \mathbb{R}$.
+- physics
+  - review D'Alembert's principle (and maybe read about analytical mechanics, which focuses on scalar quantities), 
+  - review the Euler-Lagrange equation and Lagrangian mechanics
+  - read the Wikipedia article that derives SR's four-momentum by using the Euler-Lagrange equation; then review four-momentum stuff, including $E = mc^2$!
+  - read about the covariant derivative from Carroll's GR text
 - review orientation of manifolds
 - review Stokes' theorem
 - How does thinking about the differential as a pushforward relate to changing coordinates?
 - finish understanding coordinate representation of Hodge dual
   - this will involve reviewing identities involving Levi-Civita symbol and generalized Kronecker delta
-- read about the covariant derivative from Carroll's GR text
 - do a concrete example of computing $T_{\mathbf{p}}(M)$ for $M$ that's the image of a smooth function $\mathbb{R}^2 \rightarrow \mathbb{R}$
 
 Tensors
