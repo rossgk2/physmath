@@ -51,6 +51,9 @@ Dual spaces
 - add remark about using the unnatural isomorphism $\mathbf{F}$ to think about elements of dual space as (being represented by) row vectors
 
 Recent physics and tensor stuff (8/25/23)
+- Add note that tangent vectors change in the same way as the cord functions since there is an interpretation of tangent vector as vector tangent to curve. (Can also formally check with defn d/dx^i = d(- circ x^{-1})/dx^i.)
+- Reframe the change of basis for tangent vectors theorem as a simple consequence of change of bases between vector spaces; only particular detail added is what the change of basis matrix is
+- Two tensor concepts: change of coordinates and identification between vectors and dual vectors with a bilinear form. If these concepts don’t appear next to each other already, should include a summary with the linear algebra formulation and the physicist index notation.
 - fix conflict between my use of Lee's Alt convention and determinant convention (seems like I take the nice part definition of the wedge product from the Alt convention and then derive the determinant formula, but *without* factorials, which shouldn't be possible according to Lee)
 - $\frac{dy}{dx}$ and Oscar Cunningham's [dividing by a vector](https://oscarcunningham.com/4/dividing-by-a-vector/) blog post
 - electromagnetic induction
