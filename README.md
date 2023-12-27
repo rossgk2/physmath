@@ -2,7 +2,7 @@
 
 These books are incomplete, but are in a good enough state that I feel okay with sharing them:
 - [Calculus](https://github.com/rossgk2/Calculus)
-- [Tensors and differenital forms](https://github.com/rossgk2/Tensors-and-differential-forms)
+- [Tensors and differential forms](https://github.com/rossgk2/Tensors-and-differential-forms)
 
 # Physically-inspired math
 
