@@ -82,7 +82,7 @@ Here's a list of sins that traditional math commits, grouped by subject (a good 
 - Making students memorize rules that describe the end behavior of rational functions rather than emphasizing the practice of deriving these rules with limits at infinity. 
 
 **Calculus**
-- Stating the chain rule by using the vague notion of differentiation with respect to " $u = g(x)$ ", rather than defining $\frac{df}{dg} := f' \circ g$ and stating the chain rule as $\frac{d(f(g(x))}{dx} = \frac{df(g(x))}{dg(x)} \frac{dg(x)}{dx}$.
+- Stating the chain rule by using the vague notion of differentiation with respect to " $u = g(x)$ ", rather than stating the chain rule as $\frac{d(f(g(x))}{dx} = \frac{df(g(x))}{dg(x)} \frac{dg(x)}{dx}$.
 - Defining $e$ and the natural logarithm by "jumping to the conclusion" and skipping all relevant motivation. (Typically, $\ln$ will defined to be $\int_0^x \frac{1}{x} dx$, and and $e$ will either be defined to be $e := \lim_{n \rightarrow \infty} (1 + \frac{1}{n})^n$, or to be $e := 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + ...$, or to be $e := \ln^{-1}(1)$).
 - Proving that FTC 1 $\implies$ FTC 2 rather than FTC 2 $\implies$ FTC 1. (FTC 2, the second fundamental theorem of calculus, is more intuitive than FTC 1, the first fundamental theorem of calculus).
 - Not explaining why "canceling differentials" works.
