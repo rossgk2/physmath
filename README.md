@@ -82,7 +82,7 @@ Here's a list of sins that traditional math commits, grouped by subject (a good 
 - Making students memorize rules that describe the end behavior of rational functions rather than emphasizing the practice of deriving these rules with limits at infinity. 
 
 **Calculus**
-- Stating the chain rule by using the vague notion of differentiation with respect to " $u = g(x)$ ", rather than defining $\frac{df}{dg} := f' \circ g$ and stating the chain rule as $\frac{d(f \circ g)}{dx} = \frac{df}{dg} \frac{dg}{dx}$.
+- Stating the chain rule by using the vague notion of differentiation with respect to " $u = g(x)$ ", rather than defining $\frac{df}{dg} := f' \circ g$ and stating the chain rule as $\frac{d(f(g(x))}{dx} = \frac{df(g(x))}{dg(x)} \frac{dg(x)}{dx}$.
 - Defining $e$ and the natural logarithm by "jumping to the conclusion" and skipping all relevant motivation. (Typically, $\ln$ will defined to be $\int_0^x \frac{1}{x} dx$, and and $e$ will either be defined to be $e := \lim_{n \rightarrow \infty} (1 + \frac{1}{n})^n$, or to be $e := 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + ...$, or to be $e := \ln^{-1}(1)$).
 - Proving that FTC 1 $\implies$ FTC 2 rather than FTC 2 $\implies$ FTC 1. (FTC 2, the second fundamental theorem of calculus, is more intuitive than FTC 1, the first fundamental theorem of calculus).
 - Not explaining why "canceling differentials" works.
@@ -94,9 +94,13 @@ Here's a list of sins that traditional math commits, grouped by subject (a good 
 - Insisting that you have to make weird shapes with your hand to apply the right hand rule rather than explaining the concept of orientation, and how orientation (and therefore the direction of the cross product) flips when the counterclockwise angle from one vector to another exceeds $\pi$.
 - Not making it clear that the right hand rule is a *convention* that is tied to the convention of depicting coordinate systems in the "right handed way"  (that is, $\hat{\mathbf{e}}\_1 = \hat{\mathbf{x}}$ is into the page, $\hat{\mathbf{e}}\_2 = \hat{\mathbf{y}}$ is right, $\hat{\mathbf{e}}\_3 = \hat{\mathbf{z}}$ is up).
 
-**Tensors**
+**Logic and proofs**
 - Not explaining that the implication operator only takes on its English-langauge meaning when you use it inside a "for all" quantifier.
+
+**Linear algebra**
 - Emphasizing thinking of matrices as grids of numbers rather than as lists of vectors.
+
+**Tensors**
 - Favoring the "multilinear function" definition of tensor over the "multilinear element" definition of tensor.
 
 **Topology**
