@@ -72,7 +72,7 @@ A prime example of the "efficiency" pedagogy is the typical way in which $e$, $e
 
 Often associated with the "efficency" pedagogy is the worst mathematical mindset, the "brute force" mindset. This mindset is of the opinion that certain topics are "just hard", but you’ll get them eventually if you keep trying. 
 
-Yes, math is indeed hard. But it shouldn’t be hard for the wrong reasons. *Of course*, if you bang your head against the wall again and again to instill the mechanical steps of a technique you don’t really understand into your brain, you will become adept at the technique. Math should never be hard in this sort of way. In situations where persistence is the most common recommendation, there is often a better explanation than the traditional one that makes things easier.
+Yes, math is indeed hard. It is very hard. But it shouldn’t be hard for the wrong reasons. *Of course*, if you bang your head against the wall again and again to instill the mechanical steps of a technique you don’t really understand into your brain, you will become adept at the technique. Math should never be hard in this sort of way. In situations where persistence is the most common recommendation, there is often a better explanation than the traditional one that makes things easier.
 
 The brute force mindset is unfortunately followed by many who have sufficient work ethic to become professors.
 
