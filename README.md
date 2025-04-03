@@ -68,6 +68,14 @@ If you think about it, the "efficency" pedagogy isn't actually that efficent. Su
 
 A prime example of the "efficiency" pedagogy is the typical way in which $e$, $e^x$, and $\ln(x)$ are defined. One common approach in to define $\ln(x)$ as $\ln(x) := \int_0^x \frac{1}{x} dx$, then define $x \mapsto e^x$ to be the inverse function to $\ln$, and then define $e := e^1$. This approach establishes all relevant facts about $x \mapsto e^x$ and $\ln$, including the fact $\frac{d}{dx} e^x = e^x$, but it does not give an intuition for why the facts are true. All of the other common approaches have this same issue. (The one pedagogically correct approach is to notice that $\frac{d}{dx} b^x = c_b b^x$ for some constant $c_b$, and then define $e$ to be the $b$ for which $c_b = 1$. Thus $\frac{d}{dx} e^x = e^x$. We also define $\ln$ to be the inverse function to $x \mapsto e^x$. You can the details in my calculus textbook).
 
+#### The worst mathematical mindset: brute force
+
+Often associated with the "efficency" pedagogy is the worst mathematical mindset, the "brute force" mindset. This mindset is of the opinion that certain topics are "just hard", but you’ll get them eventually if you keep trying. 
+
+Yes, math is indeed hard. But it shouldn’t be hard for the wrong reasons. *Of course*, if you bang your head against the wall again and again to instill the mechanical steps of a technique you don’t really understand into your brain, you will become adept at the technique. Math should never be hard in this sort of way. In situations where persistence is the most common recommendation, there is often a better explanation than the traditional one that makes things easier.
+
+The brute force mindset is unfortunately followed by many who have sufficient work ethic to become professors.
+
 ## Particular sins of traditional math
 
 Here's a list of sins that traditional math commits, grouped by subject (a good amount of these sins are resultant from the "conjecture and prove" philosophy, but not all of them are).
