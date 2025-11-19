@@ -9,26 +9,9 @@ These books are incomplete, but are in a good enough state that I feel okay with
 
 My ultimate ambition for this "physmath" project is to develop a series of textbooks that *satisfyingly* explain a lot of physically-inspired math, starting from precalculus. Here's the rough syllabus:
 
-- Thoughts on how to learn math (2 pages)
-- Precalculus
-- Calculus
-- Single variable calculus
-- Linear algebra teaser: dot product, cross product, and equation of a plane
-- Multivariable calculus
-- Logic and proof-writing
-- Linear algebra
-- Differential geometry
-  - Tensors
-  - Basic topology
-  - Calculus on manifolds with tensors
-
-I love every single one of these topics just as much as the culmination that is differential geometry, so I won't be offended if you decide to stop halfway through the calculus textbook or something like that. (It's not like I'll know if you do so!). 
-
-And let's be real- if even five or so people read some of just my precalculus texbook and come away with new insights, I'll be happy. Seriously. Precalculus is one of math's subjects that is treated the worst!
-
 # Towards actually satisfyingly explained math
 
-Okay, but what makes "satisfying" math? I certainty want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to higher mathematics overuse/abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausible enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. It's true that some ideas are radical enough perspective shifts that they can only be perceived as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
+What makes "satisfying" math? I certainty want to avoid the "that's the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to higher mathematics overuse/abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausible enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. It's true that some ideas are radical enough perspective shifts that they can only be perceived as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
 
 Satisfyingly explained math is essentially the opposite of "conjecture and prove" math. Heuristically, a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you can retrace the concept's story and eventually reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
 
