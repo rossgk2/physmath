@@ -65,7 +65,7 @@ The brute force mindset is unfortunately followed by many who have sufficient wo
 Here's a list of sins that traditional math commits, grouped by subject (a good amount of these sins are resultant from the "conjecture and prove" philosophy, but not all of them are).
 
 **Precalculus**
-- Saying things such as "let $y = f(x)$", and thereby conflating functions (e.g. $f$) with functions evaluated on inputs (e.g. $f(x)\hspace{0mm}$).
+- Saying things such as "let $y = f(x)$", and thereby conflating functions (e.g. $f$) with functions evaluated on inputs (e.g. $f(x)\hspace{0mm}$). One should instead say ``let $f$ be a function''!
 - Relying on the "FOIL" mnemonic instead of applying the distributive property, which straightforwardly tells us $(a + b)(c + d) = a(c + d) + b(c + d) = ac + ad + bc + bd$.
 - Not stopping to pause at the fact that $\pi$ being a constant, and not a function of a circle's radius, is actually kinda cool.
 - Not explaning why definitions involving exponents such as $b^{-x} := \frac{1}{b^x}$ are natural.
