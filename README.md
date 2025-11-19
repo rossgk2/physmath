@@ -15,7 +15,7 @@ What makes "satisfying" math? I certainty want to avoid the "that's just the way
 
 Satisfyingly explained math is essentially the opposite of "conjecture and prove" math. Heuristically, a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you can retrace the concept's story and eventually reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
 
-I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long time.
+I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long while.
 
 ## Specifics of pedagogy
 
