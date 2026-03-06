@@ -1,15 +1,25 @@
-# Books
+# Physically-inspired math
+
+## What is math?
+
+I have a large interest in philosophically-inspired and physically-inspired math. To me, the two entail representing *abstract principles* from logic as well as *tangible spatial ideas* from our experience in syntactical form, and then using the most basic of those abstract principles to derive further insights. The insights can be new abstract principles that ring true, new spatial ideas we didn't realize are true but are now made clear, or some synthesis of the two.
+
+As an example of some synthesis, we have the *generalized fundamental theorem of calculus*,
+$$
+\int_M d\omega = \int_{\partial M} \omega
+$$
+It says that "the sum of the density over the interior is equal to the difference of the quantity across the boundary". This is abstract, visual, profound, beautiful.
+
+## Books
+
+Unfortunately, the beauty of math is unfortunately much too often obscured by wrong attitudes, like the "brute force" mindset that insists on rote skills rather than understanding, and, more sneakily, what I call the "efficiency pedagogy" which takes "shortcuts" to establish that facts are true without really explaining them. I've therefore spent a large portion of my life developing notes, which have turned into textbooks, that *satisfyingly* explain math and physics, starting from precalculus.
 
 These books are incomplete, but are in a good enough state that I feel okay with sharing them:
 - [Calculus](https://github.com/rossgk2/Calculus)
 - [Physics](https://github.com/rossgk2/Physics)
 - [Tensors and differential forms](https://github.com/rossgk2/Tensors-and-differential-forms)
 
-# Physically-inspired math
-
-My ultimate ambition for this "physmath" project is to develop a series of textbooks that *satisfyingly* explain a lot of physically-inspired math, starting from precalculus. Here's the rough syllabus:
-
-# Towards actually satisfyingly explained math
+## Towards actually satisfyingly explained math
 
 What makes "satisfying" math? I certainty want to avoid the "that's just the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to higher mathematics overuse and abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausible enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. It's true that some ideas are radical enough perspective shifts that they can only be perceived as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
 
@@ -60,41 +70,48 @@ Yes, math is indeed hard. It is very hard. But it shouldn’t be hard for the wr
 
 The brute force mindset is unfortunately followed by many who have sufficient work ethic to become professors.
 
-## Particular sins of traditional math
+## Particular sins of traditional explanations
 
-Here's a list of sins that traditional math commits, grouped by subject (a good amount of these sins are resultant from the "conjecture and prove" philosophy, but not all of them are).
+Here's a list of sins that traditional explanations commit, grouped by subject. A good amount of these sins are resultant from the "conjecture and prove" philosophy, but not all of them are.
 
-**Precalculus**
+### Precalculus
+
 - Saying things such as "let $y = f(x)$", and thereby conflating functions (e.g. $f$) with functions evaluated on inputs (e.g. $f(x)\hspace{0mm}$). One should instead say "let $f$ be a function"!
-- Relying on the "FOIL" mnemonic instead of applying the distributive property, which straightforwardly tells us $(a + b)(c + d) = a(c + d) + b(c + d) = ac + ad + bc + bd$.
+- Relying on the "FOIL" mnemonic ("first, outside, inside, last") instead of just applying the distributive property, which straightforwardly tells us $(a + b)(c + d) = a(c + d) + b(c + d) = ac + ad + bc + bd$.
 - Not stopping to pause at the fact that $\pi$ being a constant, and not a function of a circle's radius, is actually kinda cool.
 - Not explaning why definitions involving exponents such as $b^{-x} := \frac{1}{b^x}$ are natural.
-- Glossing over the fact that the $n$th root of $x$ is *different notation* for $x^{\frac{1}{n}}$, and instead insinuating that one could somehow prove that the $n$th root of $x$ is equal to $x^{\frac{1}{n}}$. (Both denote the evaluation of the inverse function of $x \mapsto x^n$ at $x$).
-- Not giving memorable intuition for the facts $\log_b(x y) = \log_b(x) + \log_b(y)$ and $\log_b(x^y) = y \log_b(x)$. At best, the traditional approach relies on the proof that begins by applying $\log_b$ to both sides of $b^{x + y} = b^x + b^y$. (That's the best *proof* there is, but it isn't the best intution).
+- Glossing over the fact that the $n$th root of $x$ is *different notation* for $x^{\frac{1}{n}}$, and instead insinuating that one could somehow prove that the $n$th root of $x$ is equal to $x^{\frac{1}{n}}$. (Both denote the evaluation of the inverse function of $x \mapsto x^n$ at $x$.)
+- Not giving memorable intuition for the facts $\log_b(x y) = \log_b(x) + \log_b(y)$ and $\log_b(x^y) = y \log_b(x)$. At best, the traditional approach relies on the proof that begins by applying $\log_b$ to both sides of $b^{x + y} = b^x + b^y$. (That's the best *proof* there is, but it isn't the best intuition.)
 - Making students memorize rules that describe the end behavior of rational functions rather than emphasizing the practice of deriving these rules with limits at infinity. 
 
-**Calculus**
+### Calculus
+
 - Stating the chain rule by using the vague notion of differentiation with respect to " $u = g(x)$ ", rather than stating the chain rule as $\frac{d(f(g(x))}{dx} = \frac{df(g(x))}{dg(x)} \frac{dg(x)}{dx}$.
 - Defining $e$ and the natural logarithm by "jumping to the conclusion" and skipping all relevant motivation. (Typically, $\ln$ will defined to be $\int_0^x \frac{1}{x} dx$, and and $e$ will either be defined to be $e := \lim_{n \rightarrow \infty} (1 + \frac{1}{n})^n$, or to be $e := 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + ...$, or to be $e := \ln^{-1}(1)$).
 - Proving that FTC 1 $\implies$ FTC 2 rather than FTC 2 $\implies$ FTC 1. (FTC 2, the second fundamental theorem of calculus, is more intuitive than FTC 1, the first fundamental theorem of calculus).
 - Not explaining why "canceling differentials" works.
   - Presenting the change of variables formula for integrals to be a chance discovery instead of a natural mirroring of the chain rule.
 
-**Linear algebra**
+### Linear algebra
+
 - Presenting the correspondence between linear transformations and matrices as a coincidence.
 - Not explaining why the following two definitions of the dot product are equivalent: (1) $\mathbf{v} \cdot \mathbf{w} := ||\mathbf{v}|| ||\mathbf{w}|| \cos(\theta)$ and (2) $\mathbf{v} \cdot \mathbf{w} := v_1 w_1 + ... + v_n w_n$. When traditional math *does* explain, it uses the unintuitive law of cosines to do so.
 - Insisting that you have to make weird shapes with your hand to apply the right hand rule rather than explaining the concept of orientation, and how orientation (and therefore the direction of the cross product) flips when the counterclockwise angle from one vector to another exceeds $\pi$.
 - Not making it clear that the right hand rule is a *convention* that is tied to the convention of depicting coordinate systems in the "right handed way"  (that is, $\hat{\mathbf{e}}\_1 = \hat{\mathbf{x}}$ is into the page, $\hat{\mathbf{e}}\_2 = \hat{\mathbf{y}}$ is right, $\hat{\mathbf{e}}\_3 = \hat{\mathbf{z}}$ is up).
 
-**Logic and proofs**
+### Logic and proofs
+
 - Not explaining that the implication operator only takes on its English-langauge meaning when you use it inside a "for all" quantifier.
 
-**Linear algebra**
+### Linear algebra
+
 - Emphasizing thinking of matrices as grids of numbers rather than as lists of vectors.
 
-**Tensors**
+### Tensors
+
 - Favoring the "multilinear function" definition of tensor over the "multilinear element" definition of tensor.
 
-**Topology**
+### Topology
+
 - Not explaining how each and every one of the topological space axioms generalizes the topological properties of the real numbers.
 - Not mentioning the closure operator characterization of topologies.
