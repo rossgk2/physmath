@@ -14,22 +14,20 @@ It says that "the sum of the density over the interior is equal to the differenc
 
 ## Books
 
-Unfortunately, the beauty of math is unfortunately much too often obscured by wrong attitudes, like the "brute force" mindset that insists on rote skills rather than understanding, and, more sneakily, what I call the "efficiency pedagogy" which takes "shortcuts" to establish that facts are true without really explaining them. I've therefore spent a large portion of my life developing notes, which have turned into textbooks, that *satisfyingly* explain math and physics, starting from precalculus.
+Unfortunately, the beauty of math is unfortunately much too often obscured by wrong attitudes. Probably familiar to us all is the "that's just the way it is" attitude found in high school math classrooms. There's also the "conjecture and prove" pedagogy that traditional approaches to higher mathematics overuse and abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausible enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. It's true that some ideas are radical enough perspective shifts that they can only be perceived as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery. But most subtle of all- and perhaps the most destructive for it- is what I call the "efficiency pedagogy". The efficency pedagogy takes shortcuts to establish that facts are true without really explaining them, tricking students into thinking that they understand something, since they can write down a "proof", while secretly tying them up in tangles of circular logic that never get resolved.
+
+I've spent a large portion of my life developing notes, which have turned into textbooks, that *satisfyingly* explain math and physics, starting from precalculus. 
+
+Satisfyingly explained math is essentially the opposite of "conjecture and prove" math. Heuristically, a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you can retrace the concept's story and eventually reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
+
+I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long while.
 
 These books are incomplete, but are in a good enough state that I feel okay with sharing them:
 - [Calculus](https://github.com/rossgk2/Calculus)
 - [Physics](https://github.com/rossgk2/Physics)
 - [Tensors and differential forms](https://github.com/rossgk2/Tensors-and-differential-forms)
 
-## Towards actually satisfyingly explained math
-
-What makes "satisfying" math? I certainty want to avoid the "that's just the way it is" attitude that you find so-often in high school math classrooms. But beyond that, I want to improve upon the "conjecture and prove" pedagogy that traditional approaches to higher mathematics overuse and abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausible enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. It's true that some ideas are radical enough perspective shifts that they can only be perceived as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
-
-Satisfyingly explained math is essentially the opposite of "conjecture and prove" math. Heuristically, a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you can retrace the concept's story and eventually reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
-
-I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long while.
-
-## Specifics of pedagogy
+## More on the failings of traditional explanations
 
 Here are some more specifics on the failings of "conjecture and prove" and on what exactly I think of as satisfingly explained math.
 
