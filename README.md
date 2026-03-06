@@ -26,7 +26,7 @@ $$
 f(x),
 $$
 
-then the input $x$ is also in some sense acting on the function $f$ (by means of a higher-order function that itself takes functions, like $f$, as inputs). This philisophical sort of realization is not just perspective-changing, but actually useful for representing functions as objects[^1].
+then the input $x$ is also in some sense acting on the function $f$ (by means of a higher-order function that itself takes functions, like $f$, as inputs). This philisophical sort of realization is not just perspective-changing, but actually useful for representing functions as objects[^1]. Doing so is a fundamental part of understanding the machinery behind Albert Einstein's theory of gravity.
 
 [^1]: Via the linear isomorphism $\mathcal{L}(V \rightarrow W) \cong W^{*} \otimes V$.]
 
