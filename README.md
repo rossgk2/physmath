@@ -4,21 +4,29 @@
 
 I have a large interest in philosophically-inspired and physically-inspired math. To me, the two entail representing *abstract principles* from logic as well as *tangible spatial ideas* from our experience in syntactical form, and then using the most basic of those abstract principles to derive further insights. The insights can be new abstract principles that ring true, new spatial ideas we didn't realize are true but are now made clear, or some synthesis of the two.
 
-As an example of some synthesis, we have the *generalized fundamental theorem of calculus*,
+A striking example of some synthesis is the *generalized fundamental theorem of calculus*,
 
 $$
 \int_M d\omega = \int_{\partial M} \omega
 $$
 
-It says that "the sum of the density over the interior is equal to the difference of the quantity across the boundary". This is abstract, visual, profound, beautiful.
+It says that "the sum of the density over the interior is equal to the difference of the quantity across the boundary". How abstract, how visual, how beautiful. 
 
-Another example, from the "tangible spatial idea" end of the spectrum, is Isaac Newton's definition of the total force on a particle (of mass $m$ and velocity $\mathbf{v}$):
+Another synthesis is Isaac Newton's definition of the total force on a particle (of mass $m$ and velocity $\mathbf{v}$):
 
 $$
-\mathbf{F}\_{\text{tot}} = \frac{d(m\mathbf{v})}{dt}
+\mathbf{F}\_{\text{tot}} := \frac{d(m\mathbf{v})}{dt}
 $$
 
-In the context of the fact that the sum of all $m_i \mathbf{v}\_i$ over all particles is conserved, this definition is also beautiful. It says "force is that which changes the conserved quantity of motion".
+This definition says "force is that which changes the conserved quantity of motion". How profound!
+
+On the more logical or philisophical end of things, we have the idea of *duality*, which is just the realization that when we have a function $f$ acting on an input $x$ in the expression
+
+$$
+f(x),
+$$
+
+then the input $x$ is also in some sense acting on the function $f$ (by means of a higher-order function that itself takes functions, like $f$, as inputs). 
 
 ## The beauty of math is obscured!
 
