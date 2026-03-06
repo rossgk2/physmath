@@ -49,7 +49,7 @@ I admit, it is unlikely that a single person would be able to independently make
 These books are incomplete, but are in a good enough state that I feel okay with sharing them:
 - [Calculus](https://github.com/rossgk2/Calculus)
 - [Physics](https://github.com/rossgk2/Physics)
-- [Tensors and differential forms](https://github.com/rossgk2/Tensors-and-differential-forms)
+- [Tensors and differential forms](https://github.com/rossgk2/Tensors-and-differential-forms) (the mathematics behind Einstein's theory of gravity)
 
 # More on the failings of traditional explanations
 
