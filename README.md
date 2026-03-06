@@ -12,11 +12,15 @@ $$
 
 It says that "the sum of the density over the interior is equal to the difference of the quantity across the boundary". This is abstract, visual, profound, beautiful.
 
-## Books
+## The beauty of math is obscured!
 
 Unfortunately, the beauty of math is unfortunately much too often obscured by wrong attitudes. The "that's just the way it is" attitude from high school math class is probably familiar to us all.
 
-There's also the "conjecture and prove" pedagogy that traditional approaches to higher mathematics overuse and abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausible enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. It's true that some ideas are radical enough perspective shifts that they can only be perceived as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery. But most subtle of all- and perhaps the most destructive for it- is what I call the "efficiency pedagogy". The efficency pedagogy takes shortcuts to establish that facts are true without really explaining them, tricking students into thinking that they understand something, since they can write down a "proof", while secretly tying them up in tangles of circular logic that never get resolved.
+There's also the "conjecture and prove" pedagogy that traditional approaches to higher mathematics overuse and abuse. In "conjecture and prove", the proposed truths (conjectures) are always plausible enough, but also always seem to be somewhat unmotivated, somewhat popping out of thin air. It's true that some ideas are radical enough perspective shifts that they can only be perceived as coming out of the blue, but most ideas can be related to a previously known network of ideas in a natural way that lends to their discovery.
+
+Most subtle of all- and perhaps the most destructive for it- is what I call the "efficiency pedagogy". The efficency pedagogy takes shortcuts to establish that facts are true without really explaining them, tricking students into thinking that they understand something, since they can write down a "proof", while secretly tying them up in tangles of circular logic that never get resolved.
+
+## Books
 
 I've spent a large portion of my life developing notes, which have turned into textbooks, that *satisfyingly* explain math and physics, starting from precalculus. 
 
@@ -29,9 +33,9 @@ These books are incomplete, but are in a good enough state that I feel okay with
 - [Physics](https://github.com/rossgk2/Physics)
 - [Tensors and differential forms](https://github.com/rossgk2/Tensors-and-differential-forms)
 
-## More on the failings of traditional explanations
+# More on the failings of traditional explanations
 
-Here are some more specifics on the failings of "conjecture and prove" and on what exactly I think of as satisfingly explained math.
+Here are some more specifics on the failings of "conjecture and prove" and on what exactly I think of as satisfingly explained math. Hopefully this is theraputic to someone else out there who's been similarly frustrated.
 
 The "conjecture and prove" pedagogy is defined by the following three failings:
 
