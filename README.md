@@ -12,7 +12,7 @@ $$
 
 It says that "the sum of the density over the interior is equal to the difference of the quantity across the boundary". This is abstract, visual, profound, beautiful.
 
-Another beautiful example, from the "tangible spatial idea" end of the spectrum, is Isaac Newton's definition of the total force on a particle (of mass $m$ and velocity $\mathbf{v}$):
+Another example, from the "tangible spatial idea" end of the spectrum, is Isaac Newton's definition of the total force on a particle (of mass $m$ and velocity $\mathbf{v}$):
 
 $$
 \mathbf{F}\_{\text{tot}} = \frac{d(m\mathbf{v})}{dt}
