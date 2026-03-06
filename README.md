@@ -12,6 +12,14 @@ $$
 
 It says that "the sum of the density over the interior is equal to the difference of the quantity across the boundary". This is abstract, visual, profound, beautiful.
 
+Another beautiful example, from the "tangible spatial idea" end of the spectrum, is Isaac Newton's definition of the total force on a particle (of mass $m$ and velocity $\mathbf{v}$):
+
+$$
+\mathbf{F}\_{\text{tot}} = \frac{d(m\mathbf{v})}{dt}
+$$
+
+In the context of the fact that the sum of all $m_i \mathbf{v}\_i$ over all particles is conserved, this definition is also beautiful. It says "force is that which changes the conserved quantity of motion".
+
 ## The beauty of math is obscured!
 
 Unfortunately, the beauty of math is unfortunately much too often obscured by wrong attitudes. The "that's just the way it is" attitude from high school math class is probably familiar to us all.
