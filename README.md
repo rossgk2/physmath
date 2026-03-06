@@ -20,13 +20,15 @@ $$
 
 This definition says "force is that which changes the conserved quantity of motion". How profound!
 
-On the more logical or philisophical end of things, we have the idea of *duality*, which is just the realization that when we have a function $f$ acting on an input $x$ in the expression
+On the more logical end of things, we have the idea of *duality*, which is just the realization that when we have a function $f$ acting on an input $x$ in the expression
 
 $$
 f(x),
 $$
 
-then the input $x$ is also in some sense acting on the function $f$ (by means of a higher-order function that itself takes functions, like $f$, as inputs). 
+then the input $x$ is also in some sense acting on the function $f$ (by means of a higher-order function that itself takes functions, like $f$, as inputs). This philisophical sort of realization is not just perspective-changing, but actually useful for representing functions as objects[^1].
+
+[^1]: Via the linear isomorphism $\mathcal{L}(V \rightarrow W) \cong W^{*} \otimes V$.]
 
 ## The beauty of math is obscured!
 
