@@ -40,11 +40,11 @@ Most subtle of all- and perhaps the most destructive for it- is what I call the 
 
 ## Books
 
-I've spent a large portion of my life developing notes, which have turned into textbooks, that *satisfyingly* explain math and physics, starting from precalculus. 
+I've spent a large portion of my life developing notes, which have turned into books, that *satisfyingly* explain math and physics, starting from precalculus. 
 
-Satisfyingly explained math is essentially the opposite of "conjecture and prove" math. Heuristically, a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you can retrace the concept's story and eventually reobtain all the details. **My textbooks aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
+In my mind, a concept has been satisfactiorly explained if, in the scenario where you are restricted from access to any outside resources- like textbooks, notes, the Internet- you can retrace the concept's story and eventually reobtain all the details. **My books aim to present a plausible avenue by which every mathematical concept they cover could be discovered.**
 
-I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a textbook can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long while.
+I admit, it is unlikely that a single person would be able to independently make all of these natural discoveries *for the first time*. But, a book can take care of the first time for you! After you have digested the material, you will be left with that memorable path of discovery for a long while.
 
 These books are incomplete, but are in a good enough state that I feel okay with sharing them:
 - [Calculus](https://github.com/rossgk2/Calculus)
