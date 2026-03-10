@@ -8,7 +8,7 @@ $$
 \int_M d\omega = \int_{\partial M} \omega
 $$
 
-It says that "the sum of the density over the interior is equal to the difference of the quantity across the boundary". How abstract, how visual, how beautiful. 
+It says that "the accumulation of the density over the interior is equal to the difference of the quantity across the boundary". How abstract, how visual, how beautiful. 
 
 Another example, from the more tangible end of things, is Isaac Newton's definition of the total force on a particle (of mass $m$ and velocity $\mathbf{v}$):
 
@@ -18,7 +18,7 @@ $$
 
 This definition says "force is that which changes the conserved quantity of motion". How profound!
 
-On the more logical end of things, we have the idea of *duality*, which is just the realization that when we have a function $f$ acting on an input $x$ in the expression
+And on the more logical end of things, we have the idea of *duality*, which is just the realization that when we have a function $f$ acting on an input $x$ in the expression
 
 $$
 f(x),
