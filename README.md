@@ -10,7 +10,7 @@ $$
 
 It says that "the sum of the density over the interior is equal to the difference of the quantity across the boundary". How abstract, how visual, how beautiful. 
 
-Another synthesis is Isaac Newton's definition of the total force on a particle (of mass $m$ and velocity $\mathbf{v}$):
+Another example, from the more tangible end of things, is Isaac Newton's definition of the total force on a particle (of mass $m$ and velocity $\mathbf{v}$):
 
 $$
 \mathbf{F}\_{\text{tot}} := \frac{d(m\mathbf{v})}{dt}
